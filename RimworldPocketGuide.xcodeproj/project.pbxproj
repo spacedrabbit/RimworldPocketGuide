@@ -11,6 +11,289 @@
 		144CDF1C1D3DC5BD00964D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CDF1B1D3DC5BD00964D19 /* AppDelegate.swift */; };
 		144CDF1E1D3DC5BD00964D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CDF1D1D3DC5BD00964D19 /* ViewController.swift */; };
 		144CDF231D3DC5BD00964D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144CDF221D3DC5BD00964D19 /* Assets.xcassets */; };
+		147B40E71D41BEBC0041260E /* About.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25E51D41BEB50041260E /* About.xml */; };
+		147B40E81D41BEBC0041260E /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 147B25E61D41BEB50041260E /* Preview.png */; };
+		147B40E91D41BEBC0041260E /* Biomes_Arid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25E91D41BEB50041260E /* Biomes_Arid.xml */; };
+		147B40EA1D41BEBC0041260E /* Biomes_Cold.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25EA1D41BEB50041260E /* Biomes_Cold.xml */; };
+		147B40EB1D41BEBC0041260E /* Biomes_Moderate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25EB1D41BEB50041260E /* Biomes_Moderate.xml */; };
+		147B40EC1D41BEBC0041260E /* Bodies_Animal_Bird.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25ED1D41BEB50041260E /* Bodies_Animal_Bird.xml */; };
+		147B40ED1D41BEBC0041260E /* Bodies_Animal_Insect.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25EE1D41BEB50041260E /* Bodies_Animal_Insect.xml */; };
+		147B40EE1D41BEBC0041260E /* Bodies_Animal_Quadruped.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25EF1D41BEB50041260E /* Bodies_Animal_Quadruped.xml */; };
+		147B40EF1D41BEBC0041260E /* Bodies_Animal_Snake.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F01D41BEB50041260E /* Bodies_Animal_Snake.xml */; };
+		147B40F01D41BEBC0041260E /* Bodies_Humanlike.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F11D41BEB50041260E /* Bodies_Humanlike.xml */; };
+		147B40F11D41BEBC0041260E /* Bodies_Mechanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F21D41BEB50041260E /* Bodies_Mechanoid.xml */; };
+		147B40F21D41BEBC0041260E /* BodyParts_Animal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F41D41BEB50041260E /* BodyParts_Animal.xml */; };
+		147B40F31D41BEBC0041260E /* BodyParts_General.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F51D41BEB50041260E /* BodyParts_General.xml */; };
+		147B40F41D41BEBC0041260E /* BodyParts_Humanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F61D41BEB50041260E /* BodyParts_Humanoid.xml */; };
+		147B40F51D41BEBC0041260E /* BodyParts_Mechanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F71D41BEB50041260E /* BodyParts_Mechanoid.xml */; };
+		147B40F61D41BEBC0041260E /* BodyParts_Organs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25F81D41BEB50041260E /* BodyParts_Organs.xml */; };
+		147B40F71D41BEBC0041260E /* BodyPartGroups.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25FA1D41BEB50041260E /* BodyPartGroups.xml */; };
+		147B40F81D41BEBC0041260E /* Concepts_Alerts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25FD1D41BEB50041260E /* Concepts_Alerts.xml */; };
+		147B40F91D41BEBC0041260E /* Concepts_Entry.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25FE1D41BEB50041260E /* Concepts_Entry.xml */; };
+		147B40FA1D41BEBC0041260E /* Concepts_Noted.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B25FF1D41BEB50041260E /* Concepts_Noted.xml */; };
+		147B40FB1D41BEBC0041260E /* Concepts_TriggeredModal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26001D41BEB50041260E /* Concepts_TriggeredModal.xml */; };
+		147B40FC1D41BEBC0041260E /* Damages_Healing.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26021D41BEB50041260E /* Damages_Healing.xml */; };
+		147B40FD1D41BEBC0041260E /* Damages_LocalInjury.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26031D41BEB50041260E /* Damages_LocalInjury.xml */; };
+		147B40FE1D41BEBC0041260E /* Damages_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26041D41BEB50041260E /* Damages_Misc.xml */; };
+		147B40FF1D41BEBC0041260E /* DesignationCategories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26061D41BEB50041260E /* DesignationCategories.xml */; };
+		147B41001D41BEBC0041260E /* Designations.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26081D41BEB50041260E /* Designations.xml */; };
+		147B41011D41BEBC0041260E /* Difficulties.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B260A1D41BEB50041260E /* Difficulties.xml */; };
+		147B41021D41BEBC0041260E /* Duties_Gatherings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B260D1D41BEB50041260E /* Duties_Gatherings.xml */; };
+		147B41031D41BEBC0041260E /* Duties_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B260E1D41BEB50041260E /* Duties_Misc.xml */; };
+		147B41041D41BEBC0041260E /* Effecters_Construction.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26101D41BEB50041260E /* Effecters_Construction.xml */; };
+		147B41051D41BEBC0041260E /* Effecters_Damage.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26111D41BEB50041260E /* Effecters_Damage.xml */; };
+		147B41061D41BEBC0041260E /* Effecters_Eat.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26121D41BEB50041260E /* Effecters_Eat.xml */; };
+		147B41071D41BEBC0041260E /* Effecters_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26131D41BEB50041260E /* Effecters_Misc.xml */; };
+		147B41081D41BEBC0041260E /* Effecters_PawnStates.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26141D41BEB50041260E /* Effecters_PawnStates.xml */; };
+		147B41091D41BEBC0041260E /* Effecters_Recipes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26151D41BEB50041260E /* Effecters_Recipes.xml */; };
+		147B410A1D41BEBC0041260E /* Effecters_WorkGeneral.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26161D41BEB50041260E /* Effecters_WorkGeneral.xml */; };
+		147B410B1D41BEBC0041260E /* Factions_Hidden.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26191D41BEB50041260E /* Factions_Hidden.xml */; };
+		147B410C1D41BEBC0041260E /* Factions_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B261A1D41BEB50041260E /* Factions_Misc.xml */; };
+		147B410D1D41BEBC0041260E /* Factions_Player.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B261B1D41BEB50041260E /* Factions_Player.xml */; };
+		147B410E1D41BEBC0041260E /* HairsGeneral.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B261E1D41BEB50041260E /* HairsGeneral.xml */; };
+		147B410F1D41BEBC0041260E /* Hediffs_Global_Drugs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26201D41BEB50041260E /* Hediffs_Global_Drugs.xml */; };
+		147B41101D41BEBC0041260E /* Hediffs_Global_Execution.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26211D41BEB50041260E /* Hediffs_Global_Execution.xml */; };
+		147B41111D41BEBC0041260E /* Hediffs_Global_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26221D41BEB50041260E /* Hediffs_Global_Misc.xml */; };
+		147B41121D41BEBC0041260E /* Hediffs_Global_Needs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26231D41BEB50041260E /* Hediffs_Global_Needs.xml */; };
+		147B41131D41BEBC0041260E /* Hediffs_Global_Temperature.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26241D41BEB50041260E /* Hediffs_Global_Temperature.xml */; };
+		147B41141D41BEBC0041260E /* Hediffs_Local_AddedParts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26251D41BEB50041260E /* Hediffs_Local_AddedParts.xml */; };
+		147B41151D41BEBC0041260E /* Hediffs_Local_Chronic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26261D41BEB50041260E /* Hediffs_Local_Chronic.xml */; };
+		147B41161D41BEBC0041260E /* Hediffs_Local_Implants.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26271D41BEB50041260E /* Hediffs_Local_Implants.xml */; };
+		147B41171D41BEBC0041260E /* Hediffs_Local_Infections.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26281D41BEB50041260E /* Hediffs_Local_Infections.xml */; };
+		147B41181D41BEBC0041260E /* Hediffs_Local_Injuries.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26291D41BEB50041260E /* Hediffs_Local_Injuries.xml */; };
+		147B41191D41BEBC0041260E /* Hediffs_Local_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B262A1D41BEB50041260E /* Hediffs_Local_Misc.xml */; };
+		147B411A1D41BEBC0041260E /* HediffGiverSets.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B262C1D41BEB50041260E /* HediffGiverSets.xml */; };
+		147B411B1D41BEBC0041260E /* HistoryAutoRecorders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B262E1D41BEB50041260E /* HistoryAutoRecorders.xml */; };
+		147B411C1D41BEBC0041260E /* HistoryAutoRecorderGroups.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26301D41BEB50041260E /* HistoryAutoRecorderGroups.xml */; };
+		147B411D1D41BEBC0041260E /* Incidents_Disease.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26321D41BEB50041260E /* Incidents_Disease.xml */; };
+		147B411E1D41BEBC0041260E /* Incidents_ThreatsBig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26331D41BEB50041260E /* Incidents_ThreatsBig.xml */; };
+		147B411F1D41BEBC0041260E /* Incidents_ThreatsSmall.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26341D41BEB50041260E /* Incidents_ThreatsSmall.xml */; };
+		147B41201D41BEBC0041260E /* Incidents_Various_Bad.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26351D41BEB50041260E /* Incidents_Various_Bad.xml */; };
+		147B41211D41BEBC0041260E /* Incidents_Various_Good.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26361D41BEB50041260E /* Incidents_Various_Good.xml */; };
+		147B41221D41BEBC0041260E /* Incidents_Various_Neutral.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26371D41BEB50041260E /* Incidents_Various_Neutral.xml */; };
+		147B41231D41BEBC0041260E /* Interactions_Animal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26391D41BEB50041260E /* Interactions_Animal.xml */; };
+		147B41241D41BEBC0041260E /* Interactions_Directed.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B263A1D41BEB50041260E /* Interactions_Directed.xml */; };
+		147B41251D41BEBC0041260E /* Interactions_Romance.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B263B1D41BEB50041260E /* Interactions_Romance.xml */; };
+		147B41261D41BEBC0041260E /* Interactions_Social.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B263C1D41BEB50041260E /* Interactions_Social.xml */; };
+		147B41271D41BEBC0041260E /* Jobs_Animal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B263E1D41BEB50041260E /* Jobs_Animal.xml */; };
+		147B41281D41BEBC0041260E /* Jobs_Gatherings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B263F1D41BEB50041260E /* Jobs_Gatherings.xml */; };
+		147B41291D41BEBC0041260E /* Jobs_Joy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26401D41BEB50041260E /* Jobs_Joy.xml */; };
+		147B412A1D41BEBC0041260E /* Jobs_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26411D41BEB50041260E /* Jobs_Misc.xml */; };
+		147B412B1D41BEBC0041260E /* Jobs_Work.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26421D41BEB50041260E /* Jobs_Work.xml */; };
+		147B412C1D41BEBC0041260E /* JoyGivers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26441D41BEB50041260E /* JoyGivers.xml */; };
+		147B412D1D41BEBC0041260E /* JoyKinds.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26461D41BEB50041260E /* JoyKinds.xml */; };
+		147B412E1D41BEBC0041260E /* KeyBindingCategories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26481D41BEB50041260E /* KeyBindingCategories.xml */; };
+		147B412F1D41BEBC0041260E /* KeyBindings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B264A1D41BEB50041260E /* KeyBindings.xml */; };
+		147B41301D41BEBC0041260E /* LifeStages.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B264C1D41BEB50041260E /* LifeStages.xml */; };
+		147B41311D41BEBC0041260E /* MainTabs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B264E1D41BEB50041260E /* MainTabs.xml */; };
+		147B41321D41BEBC0041260E /* MapConditions_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26501D41BEB50041260E /* MapConditions_Misc.xml */; };
+		147B41331D41BEBC0041260E /* MapGenerators.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26521D41BEB50041260E /* MapGenerators.xml */; };
+		147B41341D41BEBC0041260E /* MentalStates_Mood.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26541D41BEB50041260E /* MentalStates_Mood.xml */; };
+		147B41351D41BEBC0041260E /* MentalStates_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26551D41BEB50041260E /* MentalStates_Special.xml */; };
+		147B41361D41BEBC0041260E /* Needs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26571D41BEB50041260E /* Needs.xml */; };
+		147B41371D41BEBC0041260E /* PawnCapacity.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26591D41BEB50041260E /* PawnCapacity.xml */; };
+		147B41381D41BEBC0041260E /* PawnKinds_Mechanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B265C1D41BEB50041260E /* PawnKinds_Mechanoid.xml */; };
+		147B41391D41BEBC0041260E /* PawnKinds_Mercenary.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B265D1D41BEB50041260E /* PawnKinds_Mercenary.xml */; };
+		147B413A1D41BEBC0041260E /* PawnKinds_Outlander.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B265E1D41BEB50041260E /* PawnKinds_Outlander.xml */; };
+		147B413B1D41BEBC0041260E /* PawnKinds_Pirate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B265F1D41BEB50041260E /* PawnKinds_Pirate.xml */; };
+		147B413C1D41BEBC0041260E /* PawnKinds_Player.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26601D41BEB50041260E /* PawnKinds_Player.xml */; };
+		147B413D1D41BEBC0041260E /* PawnKinds_Slave.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26611D41BEB50041260E /* PawnKinds_Slave.xml */; };
+		147B413E1D41BEBC0041260E /* PawnKinds_Spacer.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26621D41BEB50041260E /* PawnKinds_Spacer.xml */; };
+		147B413F1D41BEBC0041260E /* PawnKinds_Tribal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26631D41BEB50041260E /* PawnKinds_Tribal.xml */; };
+		147B41401D41BEBC0041260E /* PawnRelations_FamilyByBlood.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26651D41BEB50041260E /* PawnRelations_FamilyByBlood.xml */; };
+		147B41411D41BEBC0041260E /* PawnRelations_FamilyByChoice.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26661D41BEB50041260E /* PawnRelations_FamilyByChoice.xml */; };
+		147B41421D41BEBC0041260E /* PawnRelations_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26671D41BEB50041260E /* PawnRelations_Misc.xml */; };
+		147B41431D41BEBC0041260E /* RaidStrategies.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26691D41BEB50041260E /* RaidStrategies.xml */; };
+		147B41441D41BEBC0041260E /* Recipes_Butchery.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B266B1D41BEB50041260E /* Recipes_Butchery.xml */; };
+		147B41451D41BEBC0041260E /* Recipes_Cremation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B266C1D41BEB50041260E /* Recipes_Cremation.xml */; };
+		147B41461D41BEBC0041260E /* Recipes_Drugs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B266D1D41BEB50041260E /* Recipes_Drugs.xml */; };
+		147B41471D41BEBC0041260E /* Recipes_Food.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B266E1D41BEB50041260E /* Recipes_Food.xml */; };
+		147B41481D41BEBC0041260E /* Recipes_Meals.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B266F1D41BEB50041260E /* Recipes_Meals.xml */; };
+		147B41491D41BEBC0041260E /* Recipes_Production.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26701D41BEB50041260E /* Recipes_Production.xml */; };
+		147B414A1D41BEBC0041260E /* Recipes_Surgery.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26711D41BEB50041260E /* Recipes_Surgery.xml */; };
+		147B414B1D41BEBC0041260E /* Recipes_Surgery_Implants.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26721D41BEB50041260E /* Recipes_Surgery_Implants.xml */; };
+		147B414C1D41BEBC0041260E /* Recipes_Surgery_NewParts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26731D41BEB50041260E /* Recipes_Surgery_NewParts.xml */; };
+		147B414D1D41BEBC0041260E /* Records_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26751D41BEB50041260E /* Records_Misc.xml */; };
+		147B414E1D41BEBC0041260E /* Records_Time.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26761D41BEB50041260E /* Records_Time.xml */; };
+		147B414F1D41BEBC0041260E /* ResearchProjects_Tier1_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26781D41BEB50041260E /* ResearchProjects_Tier1_Misc.xml */; };
+		147B41501D41BEBC0041260E /* ResearchProjects_Tier2_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26791D41BEB50041260E /* ResearchProjects_Tier2_Misc.xml */; };
+		147B41511D41BEBC0041260E /* ResearchProjects_Tier3_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B267A1D41BEB50041260E /* ResearchProjects_Tier3_Misc.xml */; };
+		147B41521D41BEBC0041260E /* ResearchProjects_Tier4_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B267B1D41BEB50041260E /* ResearchProjects_Tier4_Misc.xml */; };
+		147B41531D41BEBC0041260E /* ResearchProjects_Tier4_Ship.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B267C1D41BEB50041260E /* ResearchProjects_Tier4_Ship.xml */; };
+		147B41541D41BEBC0041260E /* Roofs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B267E1D41BEB50041260E /* Roofs.xml */; };
+		147B41551D41BEBC0041260E /* RoomRoles.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26801D41BEB50041260E /* RoomRoles.xml */; };
+		147B41561D41BEBC0041260E /* RoomStats.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26821D41BEB50041260E /* RoomStats.xml */; };
+		147B41571D41BEBC0041260E /* RulePacks_Art_DescriptionRoot.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26841D41BEB50041260E /* RulePacks_Art_DescriptionRoot.xml */; };
+		147B41581D41BEBC0041260E /* RulePacks_Art_ImagesTaleless.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26851D41BEB50041260E /* RulePacks_Art_ImagesTaleless.xml */; };
+		147B41591D41BEBC0041260E /* RulePacks_Art_NameRoots.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26861D41BEB50041260E /* RulePacks_Art_NameRoots.xml */; };
+		147B415A1D41BEBC0041260E /* RulePacks_Art_PhysicalDescriptionRoots.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26871D41BEB50041260E /* RulePacks_Art_PhysicalDescriptionRoots.xml */; };
+		147B415B1D41BEBC0041260E /* RulePacks_Global.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26881D41BEB50041260E /* RulePacks_Global.xml */; };
+		147B415C1D41BEBC0041260E /* RulePacks_InteractionsExtra.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26891D41BEB50041260E /* RulePacks_InteractionsExtra.xml */; };
+		147B415D1D41BEBC0041260E /* RulePacks_NameMaker_World.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268A1D41BEB50041260E /* RulePacks_NameMaker_World.xml */; };
+		147B415E1D41BEBC0041260E /* RulePacks_NameMakers_Animals.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268B1D41BEB50041260E /* RulePacks_NameMakers_Animals.xml */; };
+		147B415F1D41BEBC0041260E /* RulePacks_NameMakers_Factions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268C1D41BEB50041260E /* RulePacks_NameMakers_Factions.xml */; };
+		147B41601D41BEBC0041260E /* RulePacks_NameMakers_People.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268D1D41BEB50041260E /* RulePacks_NameMakers_People.xml */; };
+		147B41611D41BEBC0041260E /* RulePacks_NameMakers_Scenarios.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268E1D41BEB50041260E /* RulePacks_NameMakers_Scenarios.xml */; };
+		147B41621D41BEBC0041260E /* RulePacks_NameMakers_Traders.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B268F1D41BEB50041260E /* RulePacks_NameMakers_Traders.xml */; };
+		147B41631D41BEBC0041260E /* RulePacks_Seeds.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26901D41BEB50041260E /* RulePacks_Seeds.xml */; };
+		147B41641D41BEBC0041260E /* Scatterables.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26921D41BEB50041260E /* Scatterables.xml */; };
+		147B41651D41BEBC0041260E /* Scenarios_Classic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26941D41BEB50041260E /* Scenarios_Classic.xml */; };
+		147B41661D41BEBC0041260E /* Scenarios_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26951D41BEB50041260E /* Scenarios_Special.xml */; };
+		147B41671D41BEBC0041260E /* ScenParts_Fixed.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26971D41BEB50041260E /* ScenParts_Fixed.xml */; };
+		147B41681D41BEBC0041260E /* ScenParts_Various.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26981D41BEB50041260E /* ScenParts_Various.xml */; };
+		147B41691D41BEBC0041260E /* Skills.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B269A1D41BEB50041260E /* Skills.xml */; };
+		147B416A1D41BEBC0041260E /* Songs_Entry.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B269C1D41BEB50041260E /* Songs_Entry.xml */; };
+		147B416B1D41BEBC0041260E /* Songs_Gameplay.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B269D1D41BEB50041260E /* Songs_Gameplay.xml */; };
+		147B416C1D41BEBC0041260E /* Songs_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B269E1D41BEB50041260E /* Songs_Misc.xml */; };
+		147B416D1D41BEBC0041260E /* Songs_Tension.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B269F1D41BEB50041260E /* Songs_Tension.xml */; };
+		147B416E1D41BEBC0041260E /* Building_Oneshots_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A11D41BEB50041260E /* Building_Oneshots_Misc.xml */; };
+		147B416F1D41BEBC0041260E /* Building_Oneshots_Natural.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A21D41BEB50041260E /* Building_Oneshots_Natural.xml */; };
+		147B41701D41BEBC0041260E /* Building_Sustainers_Ambiences.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A31D41BEB50041260E /* Building_Sustainers_Ambiences.xml */; };
+		147B41711D41BEBC0041260E /* Exotic_Oneshots.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A41D41BEB50041260E /* Exotic_Oneshots.xml */; };
+		147B41721D41BEBC0041260E /* Interact_Oneshots_Melee.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A51D41BEB50041260E /* Interact_Oneshots_Melee.xml */; };
+		147B41731D41BEBC0041260E /* Interact_Oneshots_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A61D41BEB50041260E /* Interact_Oneshots_Misc.xml */; };
+		147B41741D41BEBC0041260E /* Interact_Oneshots_PickupDrop.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A71D41BEB50041260E /* Interact_Oneshots_PickupDrop.xml */; };
+		147B41751D41BEBC0041260E /* Interact_Oneshots_Violent.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A81D41BEB50041260E /* Interact_Oneshots_Violent.xml */; };
+		147B41761D41BEBC0041260E /* Interact_Sustainers_Eating.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26A91D41BEB50041260E /* Interact_Sustainers_Eating.xml */; };
+		147B41771D41BEBC0041260E /* Interact_Sustainers_Work.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AA1D41BEB50041260E /* Interact_Sustainers_Work.xml */; };
+		147B41781D41BEBC0041260E /* Pawn_Animal_Domestic_Vox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AB1D41BEB50041260E /* Pawn_Animal_Domestic_Vox.xml */; };
+		147B41791D41BEBC0041260E /* Pawn_Animal_Insect_Vox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AC1D41BEB50041260E /* Pawn_Animal_Insect_Vox.xml */; };
+		147B417A1D41BEBC0041260E /* Pawn_Animal_Misc_Vox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AD1D41BEB50041260E /* Pawn_Animal_Misc_Vox.xml */; };
+		147B417B1D41BEBC0041260E /* Pawn_Mech_Vox.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AE1D41BEB50041260E /* Pawn_Mech_Vox.xml */; };
+		147B417C1D41BEBC0041260E /* UI_Oneshots_ClockControls.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26AF1D41BEB50041260E /* UI_Oneshots_ClockControls.xml */; };
+		147B417D1D41BEBC0041260E /* UI_Oneshots_Designation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B01D41BEB50041260E /* UI_Oneshots_Designation.xml */; };
+		147B417E1D41BEBC0041260E /* UI_Oneshots_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B11D41BEB50041260E /* UI_Oneshots_Misc.xml */; };
+		147B417F1D41BEBC0041260E /* UI_Sustainers_Designation.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B21D41BEB50041260E /* UI_Sustainers_Designation.xml */; };
+		147B41801D41BEBC0041260E /* UI_Sustainers_Trade.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B31D41BEB50041260E /* UI_Sustainers_Trade.xml */; };
+		147B41811D41BEBC0041260E /* World_Oneshots_Doors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B41D41BEB50041260E /* World_Oneshots_Doors.xml */; };
+		147B41821D41BEBC0041260E /* World_Oneshots_Explosions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B51D41BEB50041260E /* World_Oneshots_Explosions.xml */; };
+		147B41831D41BEBC0041260E /* World_Oneshots_GunTurret.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B61D41BEB50041260E /* World_Oneshots_GunTurret.xml */; };
+		147B41841D41BEBC0041260E /* World_Oneshots_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B71D41BEB50041260E /* World_Oneshots_Misc.xml */; };
+		147B41851D41BEBC0041260E /* World_Oneshots_Mortars.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B81D41BEB50041260E /* World_Oneshots_Mortars.xml */; };
+		147B41861D41BEBC0041260E /* World_Oneshots_ProjectileImpacts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26B91D41BEB50041260E /* World_Oneshots_ProjectileImpacts.xml */; };
+		147B41871D41BEBC0041260E /* World_Oneshots_Tails.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26BA1D41BEB50041260E /* World_Oneshots_Tails.xml */; };
+		147B41881D41BEBC0041260E /* World_Oneshots_Weapons.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26BB1D41BEB50041260E /* World_Oneshots_Weapons.xml */; };
+		147B41891D41BEBC0041260E /* World_Sustainers_Ambiences.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26BC1D41BEB50041260E /* World_Sustainers_Ambiences.xml */; };
+		147B418A1D41BEBC0041260E /* World_Sustainers_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26BD1D41BEB50041260E /* World_Sustainers_Misc.xml */; };
+		147B418B1D41BEBC0041260E /* SpecialThingFilters.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26BF1D41BEB50041260E /* SpecialThingFilters.xml */; };
+		147B418C1D41BEBC0041260E /* StatCategories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C11D41BEB50041260E /* StatCategories.xml */; };
+		147B418D1D41BEBC0041260E /* Stats_Apparel.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C31D41BEB50041260E /* Stats_Apparel.xml */; };
+		147B418E1D41BEBC0041260E /* Stats_Basics_General.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C41D41BEB50041260E /* Stats_Basics_General.xml */; };
+		147B418F1D41BEBC0041260E /* Stats_Basics_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C51D41BEB50041260E /* Stats_Basics_Special.xml */; };
+		147B41901D41BEBC0041260E /* Stats_Building_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C61D41BEB50041260E /* Stats_Building_Special.xml */; };
+		147B41911D41BEBC0041260E /* Stats_Pawns_Combat.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C71D41BEB50041260E /* Stats_Pawns_Combat.xml */; };
+		147B41921D41BEBC0041260E /* Stats_Pawns_General.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C81D41BEB50041260E /* Stats_Pawns_General.xml */; };
+		147B41931D41BEBC0041260E /* Stats_Pawns_Social.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26C91D41BEB50041260E /* Stats_Pawns_Social.xml */; };
+		147B41941D41BEBC0041260E /* Stats_Pawns_WorkGeneral.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26CA1D41BEB50041260E /* Stats_Pawns_WorkGeneral.xml */; };
+		147B41951D41BEBC0041260E /* Stats_Pawns_WorkMedical.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26CB1D41BEB50041260E /* Stats_Pawns_WorkMedical.xml */; };
+		147B41961D41BEBC0041260E /* Stats_Pawns_WorkRecipes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26CC1D41BEB50041260E /* Stats_Pawns_WorkRecipes.xml */; };
+		147B41971D41BEBC0041260E /* Stats_Weapons_Melee.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26CD1D41BEB50041260E /* Stats_Weapons_Melee.xml */; };
+		147B41981D41BEBC0041260E /* Stats_Weapons_Ranged.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26CE1D41BEB50041260E /* Stats_Weapons_Ranged.xml */; };
+		147B41991D41BEBC0041260E /* Storytellers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D01D41BEB50041260E /* Storytellers.xml */; };
+		147B419A1D41BEBC0041260E /* StuffCategories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D21D41BEB50041260E /* StuffCategories.xml */; };
+		147B419B1D41BEBC0041260E /* Tales_DoublePawn.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D51D41BEB50041260E /* Tales_DoublePawn.xml */; };
+		147B419C1D41BEBC0041260E /* Tales_DoublePawn_Relationships.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D61D41BEB50041260E /* Tales_DoublePawn_Relationships.xml */; };
+		147B419D1D41BEBC0041260E /* Tales_NoPawn.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D71D41BEB50041260E /* Tales_NoPawn.xml */; };
+		147B419E1D41BEBC0041260E /* Tales_SinglePawn.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26D81D41BEB50041260E /* Tales_SinglePawn.xml */; };
+		147B419F1D41BEBC0041260E /* Terrain_Floors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26DA1D41BEB50041260E /* Terrain_Floors.xml */; };
+		147B41A01D41BEBC0041260E /* Terrain_FloorsStoneTile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26DB1D41BEB50041260E /* Terrain_FloorsStoneTile.xml */; };
+		147B41A11D41BEBC0041260E /* Terrain_Natural.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26DC1D41BEB50041260E /* Terrain_Natural.xml */; };
+		147B41A21D41BEBC0041260E /* Terrain_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26DD1D41BEB50041260E /* Terrain_Special.xml */; };
+		147B41A31D41BEBC0041260E /* Terrain_Water.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26DE1D41BEB50041260E /* Terrain_Water.xml */; };
+		147B41A41D41BEBC0041260E /* ThingCategories.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E01D41BEB50041260E /* ThingCategories.xml */; };
+		147B41A51D41BEBC0041260E /* Buildings_Art.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E21D41BEB50041260E /* Buildings_Art.xml */; };
+		147B41A61D41BEBC0041260E /* Buildings_Exotic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E31D41BEB50041260E /* Buildings_Exotic.xml */; };
+		147B41A71D41BEBC0041260E /* Buildings_Furniture.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E41D41BEB50041260E /* Buildings_Furniture.xml */; };
+		147B41A81D41BEBC0041260E /* Buildings_Joy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E51D41BEB50041260E /* Buildings_Joy.xml */; };
+		147B41A91D41BEBC0041260E /* Buildings_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E61D41BEB50041260E /* Buildings_Misc.xml */; };
+		147B41AA1D41BEBC0041260E /* Buildings_Natural.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E71D41BEB50041260E /* Buildings_Natural.xml */; };
+		147B41AB1D41BEBC0041260E /* Buildings_Power.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E81D41BEB50041260E /* Buildings_Power.xml */; };
+		147B41AC1D41BEBC0041260E /* Buildings_Power_WindTurbine.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26E91D41BEB50041260E /* Buildings_Power_WindTurbine.xml */; };
+		147B41AD1D41BEBC0041260E /* Buildings_Production.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26EA1D41BEB50041260E /* Buildings_Production.xml */; };
+		147B41AE1D41BEBC0041260E /* Buildings_Security.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26EB1D41BEB50041260E /* Buildings_Security.xml */; };
+		147B41AF1D41BEBC0041260E /* Buildings_Ship.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26EC1D41BEB50041260E /* Buildings_Ship.xml */; };
+		147B41B01D41BEBC0041260E /* Buildings_Structure.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26ED1D41BEB50041260E /* Buildings_Structure.xml */; };
+		147B41B11D41BEBC0041260E /* Buildings_Temperature.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26EE1D41BEB50041260E /* Buildings_Temperature.xml */; };
+		147B41B21D41BEBC0041260E /* Items_Artifacts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F01D41BEB50041260E /* Items_Artifacts.xml */; };
+		147B41B31D41BEBC0041260E /* Items_BodyParts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F11D41BEB50041260E /* Items_BodyParts.xml */; };
+		147B41B41D41BEBC0041260E /* Items_Exotic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F21D41BEB50041260E /* Items_Exotic.xml */; };
+		147B41B51D41BEBC0041260E /* Items_Food.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F31D41BEB50041260E /* Items_Food.xml */; };
+		147B41B61D41BEBC0041260E /* Items_Implants.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F41D41BEB50041260E /* Items_Implants.xml */; };
+		147B41B71D41BEBC0041260E /* Items_Luxury.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F51D41BEB50041260E /* Items_Luxury.xml */; };
+		147B41B81D41BEBC0041260E /* Items_Resource_AnimalProduct.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F61D41BEB50041260E /* Items_Resource_AnimalProduct.xml */; };
+		147B41B91D41BEBC0041260E /* Items_Resource_Manufactured.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F71D41BEB50041260E /* Items_Resource_Manufactured.xml */; };
+		147B41BA1D41BEBC0041260E /* Items_Resource_RawPlant.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F81D41BEB50041260E /* Items_Resource_RawPlant.xml */; };
+		147B41BB1D41BEBC0041260E /* Items_Resource_Stuff.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26F91D41BEB50041260E /* Items_Resource_Stuff.xml */; };
+		147B41BC1D41BEBC0041260E /* Items_Unfinished.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26FA1D41BEB50041260E /* Items_Unfinished.xml */; };
+		147B41BD1D41BEBC0041260E /* Apparel_Hats.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26FC1D41BEB50041260E /* Apparel_Hats.xml */; };
+		147B41BE1D41BEBC0041260E /* Apparel_Shield.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26FD1D41BEB50041260E /* Apparel_Shield.xml */; };
+		147B41BF1D41BEBC0041260E /* Apparel_Various.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26FE1D41BEB50041260E /* Apparel_Various.xml */; };
+		147B41C01D41BEBC0041260E /* Filth_Various.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B26FF1D41BEB50041260E /* Filth_Various.xml */; };
+		147B41C11D41BEBC0041260E /* Motes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27001D41BEB50041260E /* Motes.xml */; };
+		147B41C21D41BEBC0041260E /* Things_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27011D41BEB50041260E /* Things_Special.xml */; };
+		147B41C31D41BEBC0041260E /* Various_Stone.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27021D41BEB50041260E /* Various_Stone.xml */; };
+		147B41C41D41BEBC0041260E /* Weapons_Artillery.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27031D41BEB50041260E /* Weapons_Artillery.xml */; };
+		147B41C51D41BEBC0041260E /* Weapons_Grenades.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27041D41BEB50041260E /* Weapons_Grenades.xml */; };
+		147B41C61D41BEBC0041260E /* Weapons_Guns.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27051D41BEB50041260E /* Weapons_Guns.xml */; };
+		147B41C71D41BEBC0041260E /* Weapons_Melee.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27061D41BEB50041260E /* Weapons_Melee.xml */; };
+		147B41C81D41BEBC0041260E /* Weapons_RangedNeolithic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27071D41BEB50041260E /* Weapons_RangedNeolithic.xml */; };
+		147B41C91D41BEBC0041260E /* Plants_Bases.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27091D41BEB50041260E /* Plants_Bases.xml */; };
+		147B41CA1D41BEBC0041260E /* Plants_Cultivated_Decorative.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B270A1D41BEB50041260E /* Plants_Cultivated_Decorative.xml */; };
+		147B41CB1D41BEBC0041260E /* Plants_Cultivated_Farm.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B270B1D41BEB50041260E /* Plants_Cultivated_Farm.xml */; };
+		147B41CC1D41BEBC0041260E /* Plants_Wild_Arid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B270C1D41BEB50041260E /* Plants_Wild_Arid.xml */; };
+		147B41CD1D41BEBC0041260E /* Plants_Wild_Temperate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B270D1D41BEB50041260E /* Plants_Wild_Temperate.xml */; };
+		147B41CE1D41BEBC0041260E /* Plants_Wild_Tropical.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B270E1D41BEB50041260E /* Plants_Wild_Tropical.xml */; };
+		147B41CF1D41BEBC0041260E /* Races_Animal_Arid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27101D41BEB50041260E /* Races_Animal_Arid.xml */; };
+		147B41D01D41BEBC0041260E /* Races_Animal_Base.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27111D41BEB50041260E /* Races_Animal_Base.xml */; };
+		147B41D11D41BEBC0041260E /* Races_Animal_Bears.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27121D41BEB50041260E /* Races_Animal_Bears.xml */; };
+		147B41D21D41BEBC0041260E /* Races_Animal_BigCats.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27131D41BEB50041260E /* Races_Animal_BigCats.xml */; };
+		147B41D31D41BEBC0041260E /* Races_Animal_Birds.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27141D41BEB50041260E /* Races_Animal_Birds.xml */; };
+		147B41D41D41BEBC0041260E /* Races_Animal_Farm.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27151D41BEB50041260E /* Races_Animal_Farm.xml */; };
+		147B41D51D41BEBC0041260E /* Races_Animal_Giant.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27161D41BEB50041260E /* Races_Animal_Giant.xml */; };
+		147B41D61D41BEBC0041260E /* Races_Animal_Hares.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27171D41BEB50041260E /* Races_Animal_Hares.xml */; };
+		147B41D71D41BEBC0041260E /* Races_Animal_Insect.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27181D41BEB50041260E /* Races_Animal_Insect.xml */; };
+		147B41D81D41BEBC0041260E /* Races_Animal_Pet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27191D41BEB50041260E /* Races_Animal_Pet.xml */; };
+		147B41D91D41BEBC0041260E /* Races_Animal_Rodentlike.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271A1D41BEB50041260E /* Races_Animal_Rodentlike.xml */; };
+		147B41DA1D41BEBC0041260E /* Races_Animal_Temperate.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271B1D41BEB50041260E /* Races_Animal_Temperate.xml */; };
+		147B41DB1D41BEBC0041260E /* Races_Animal_Tropical.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271C1D41BEB50041260E /* Races_Animal_Tropical.xml */; };
+		147B41DC1D41BEBC0041260E /* Races_Animal_WildCanines.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271D1D41BEB50041260E /* Races_Animal_WildCanines.xml */; };
+		147B41DD1D41BEBC0041260E /* Races_Humanlike.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271E1D41BEB50041260E /* Races_Humanlike.xml */; };
+		147B41DE1D41BEBC0041260E /* Races_Mechanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B271F1D41BEB50041260E /* Races_Mechanoid.xml */; };
+		147B41DF1D41BEBC0041260E /* Animal.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27211D41BEB50041260E /* Animal.xml */; };
+		147B41E01D41BEBC0041260E /* Humanlike.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27221D41BEB50041260E /* Humanlike.xml */; };
+		147B41E11D41BEBC0041260E /* Mechanoid.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27231D41BEB50041260E /* Mechanoid.xml */; };
+		147B41E21D41BEBC0041260E /* SubTrees_Duty.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27241D41BEB50041260E /* SubTrees_Duty.xml */; };
+		147B41E31D41BEBC0041260E /* SubTrees_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27251D41BEB50041260E /* SubTrees_Misc.xml */; };
+		147B41E41D41BEBC0041260E /* Thoughts_Exotic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27271D41BEB50041260E /* Thoughts_Exotic.xml */; };
+		147B41E51D41BEBC0041260E /* Thoughts_Memory_Death.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27281D41BEB50041260E /* Thoughts_Memory_Death.xml */; };
+		147B41E61D41BEBC0041260E /* Thoughts_Memory_Debug.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27291D41BEB50041260E /* Thoughts_Memory_Debug.xml */; };
+		147B41E71D41BEBC0041260E /* Thoughts_Memory_Eating.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272A1D41BEB50041260E /* Thoughts_Memory_Eating.xml */; };
+		147B41E81D41BEBC0041260E /* Thoughts_Memory_Gatherings.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272B1D41BEB50041260E /* Thoughts_Memory_Gatherings.xml */; };
+		147B41E91D41BEBC0041260E /* Thoughts_Memory_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272C1D41BEB50041260E /* Thoughts_Memory_Misc.xml */; };
+		147B41EA1D41BEBC0041260E /* Thoughts_Memory_Social.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272D1D41BEB50041260E /* Thoughts_Memory_Social.xml */; };
+		147B41EB1D41BEBC0041260E /* Thoughts_Random.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272E1D41BEB50041260E /* Thoughts_Random.xml */; };
+		147B41EC1D41BEBC0041260E /* Thoughts_Situation_Drugs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B272F1D41BEB50041260E /* Thoughts_Situation_Drugs.xml */; };
+		147B41ED1D41BEBC0041260E /* Thoughts_Situation_General.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27301D41BEB50041260E /* Thoughts_Situation_General.xml */; };
+		147B41EE1D41BEBC0041260E /* Thoughts_Situation_MentalState.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27311D41BEB50041260E /* Thoughts_Situation_MentalState.xml */; };
+		147B41EF1D41BEBC0041260E /* Thoughts_Situation_Needs.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27321D41BEB50041260E /* Thoughts_Situation_Needs.xml */; };
+		147B41F01D41BEBC0041260E /* Thoughts_Situation_RoomStats.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27331D41BEB50041260E /* Thoughts_Situation_RoomStats.xml */; };
+		147B41F11D41BEBC0041260E /* Thoughts_Situation_Social.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27341D41BEB50041260E /* Thoughts_Situation_Social.xml */; };
+		147B41F21D41BEBC0041260E /* Thoughts_Situation_Special.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27351D41BEB50041260E /* Thoughts_Situation_Special.xml */; };
+		147B41F31D41BEBC0041260E /* Thoughts_Situation_Traits.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27361D41BEB50041260E /* Thoughts_Situation_Traits.xml */; };
+		147B41F41D41BEBC0041260E /* Thoughts_Situation_TraitsPerm.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27371D41BEB50041260E /* Thoughts_Situation_TraitsPerm.xml */; };
+		147B41F51D41BEBC0041260E /* TimeAssignments.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27391D41BEB50041260E /* TimeAssignments.xml */; };
+		147B41F61D41BEBC0041260E /* TradeDialogSorters.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B273B1D41BEB50041260E /* TradeDialogSorters.xml */; };
+		147B41F71D41BEBC0041260E /* TraderKinds_Caravan_Neolithic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B273D1D41BEB50041260E /* TraderKinds_Caravan_Neolithic.xml */; };
+		147B41F81D41BEBC0041260E /* TraderKinds_Caravan_Outlander.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B273E1D41BEB50041260E /* TraderKinds_Caravan_Outlander.xml */; };
+		147B41F91D41BEBC0041260E /* TraderKinds_Orbital_Misc.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B273F1D41BEB50041260E /* TraderKinds_Orbital_Misc.xml */; };
+		147B41FA1D41BEBC0041260E /* TraderKinds_Visitor_Neolithic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27401D41BEB50041260E /* TraderKinds_Visitor_Neolithic.xml */; };
+		147B41FB1D41BEBC0041260E /* TraderKinds_Visitor_Outlander.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27411D41BEB50041260E /* TraderKinds_Visitor_Outlander.xml */; };
+		147B41FC1D41BEBC0041260E /* Trainables.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27441D41BEB50041260E /* Trainables.xml */; };
+		147B41FD1D41BEBC0041260E /* Traits_Singular.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27461D41BEB50041260E /* Traits_Singular.xml */; };
+		147B41FE1D41BEBC0041260E /* Traits_Spectrum.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27471D41BEB50041260E /* Traits_Spectrum.xml */; };
+		147B41FF1D41BEBC0041260E /* Weathers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B27491D41BEB50041260E /* Weathers.xml */; };
+		147B42001D41BEBC0041260E /* WorkGivers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B274B1D41BEB50041260E /* WorkGivers.xml */; };
+		147B42011D41BEBC0041260E /* WorkTypes.xml in Resources */ = {isa = PBXBuildFile; fileRef = 147B274D1D41BEB50041260E /* WorkTypes.xml */; };
 		27C9F2EEB847D4455CBB70B2 /* Pods_RimworldPocketGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A12F1C73FA73895E53EBB5 /* Pods_RimworldPocketGuide.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +304,289 @@
 		144CDF1D1D3DC5BD00964D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		144CDF221D3DC5BD00964D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		144CDF271D3DC5BD00964D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147B25E51D41BEB50041260E /* About.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = About.xml; sourceTree = "<group>"; };
+		147B25E61D41BEB50041260E /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = "<group>"; };
+		147B25E91D41BEB50041260E /* Biomes_Arid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Biomes_Arid.xml; sourceTree = "<group>"; };
+		147B25EA1D41BEB50041260E /* Biomes_Cold.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Biomes_Cold.xml; sourceTree = "<group>"; };
+		147B25EB1D41BEB50041260E /* Biomes_Moderate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Biomes_Moderate.xml; sourceTree = "<group>"; };
+		147B25ED1D41BEB50041260E /* Bodies_Animal_Bird.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Animal_Bird.xml; sourceTree = "<group>"; };
+		147B25EE1D41BEB50041260E /* Bodies_Animal_Insect.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Animal_Insect.xml; sourceTree = "<group>"; };
+		147B25EF1D41BEB50041260E /* Bodies_Animal_Quadruped.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Animal_Quadruped.xml; sourceTree = "<group>"; };
+		147B25F01D41BEB50041260E /* Bodies_Animal_Snake.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Animal_Snake.xml; sourceTree = "<group>"; };
+		147B25F11D41BEB50041260E /* Bodies_Humanlike.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Humanlike.xml; sourceTree = "<group>"; };
+		147B25F21D41BEB50041260E /* Bodies_Mechanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Bodies_Mechanoid.xml; sourceTree = "<group>"; };
+		147B25F41D41BEB50041260E /* BodyParts_Animal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyParts_Animal.xml; sourceTree = "<group>"; };
+		147B25F51D41BEB50041260E /* BodyParts_General.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyParts_General.xml; sourceTree = "<group>"; };
+		147B25F61D41BEB50041260E /* BodyParts_Humanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyParts_Humanoid.xml; sourceTree = "<group>"; };
+		147B25F71D41BEB50041260E /* BodyParts_Mechanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyParts_Mechanoid.xml; sourceTree = "<group>"; };
+		147B25F81D41BEB50041260E /* BodyParts_Organs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyParts_Organs.xml; sourceTree = "<group>"; };
+		147B25FA1D41BEB50041260E /* BodyPartGroups.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BodyPartGroups.xml; sourceTree = "<group>"; };
+		147B25FD1D41BEB50041260E /* Concepts_Alerts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Concepts_Alerts.xml; sourceTree = "<group>"; };
+		147B25FE1D41BEB50041260E /* Concepts_Entry.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Concepts_Entry.xml; sourceTree = "<group>"; };
+		147B25FF1D41BEB50041260E /* Concepts_Noted.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Concepts_Noted.xml; sourceTree = "<group>"; };
+		147B26001D41BEB50041260E /* Concepts_TriggeredModal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Concepts_TriggeredModal.xml; sourceTree = "<group>"; };
+		147B26021D41BEB50041260E /* Damages_Healing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Damages_Healing.xml; sourceTree = "<group>"; };
+		147B26031D41BEB50041260E /* Damages_LocalInjury.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Damages_LocalInjury.xml; sourceTree = "<group>"; };
+		147B26041D41BEB50041260E /* Damages_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Damages_Misc.xml; sourceTree = "<group>"; };
+		147B26061D41BEB50041260E /* DesignationCategories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DesignationCategories.xml; sourceTree = "<group>"; };
+		147B26081D41BEB50041260E /* Designations.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Designations.xml; sourceTree = "<group>"; };
+		147B260A1D41BEB50041260E /* Difficulties.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Difficulties.xml; sourceTree = "<group>"; };
+		147B260D1D41BEB50041260E /* Duties_Gatherings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Duties_Gatherings.xml; sourceTree = "<group>"; };
+		147B260E1D41BEB50041260E /* Duties_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Duties_Misc.xml; sourceTree = "<group>"; };
+		147B26101D41BEB50041260E /* Effecters_Construction.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_Construction.xml; sourceTree = "<group>"; };
+		147B26111D41BEB50041260E /* Effecters_Damage.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_Damage.xml; sourceTree = "<group>"; };
+		147B26121D41BEB50041260E /* Effecters_Eat.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_Eat.xml; sourceTree = "<group>"; };
+		147B26131D41BEB50041260E /* Effecters_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_Misc.xml; sourceTree = "<group>"; };
+		147B26141D41BEB50041260E /* Effecters_PawnStates.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_PawnStates.xml; sourceTree = "<group>"; };
+		147B26151D41BEB50041260E /* Effecters_Recipes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_Recipes.xml; sourceTree = "<group>"; };
+		147B26161D41BEB50041260E /* Effecters_WorkGeneral.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Effecters_WorkGeneral.xml; sourceTree = "<group>"; };
+		147B26191D41BEB50041260E /* Factions_Hidden.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Factions_Hidden.xml; sourceTree = "<group>"; };
+		147B261A1D41BEB50041260E /* Factions_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Factions_Misc.xml; sourceTree = "<group>"; };
+		147B261B1D41BEB50041260E /* Factions_Player.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Factions_Player.xml; sourceTree = "<group>"; };
+		147B261E1D41BEB50041260E /* HairsGeneral.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HairsGeneral.xml; sourceTree = "<group>"; };
+		147B26201D41BEB50041260E /* Hediffs_Global_Drugs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Global_Drugs.xml; sourceTree = "<group>"; };
+		147B26211D41BEB50041260E /* Hediffs_Global_Execution.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Global_Execution.xml; sourceTree = "<group>"; };
+		147B26221D41BEB50041260E /* Hediffs_Global_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Global_Misc.xml; sourceTree = "<group>"; };
+		147B26231D41BEB50041260E /* Hediffs_Global_Needs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Global_Needs.xml; sourceTree = "<group>"; };
+		147B26241D41BEB50041260E /* Hediffs_Global_Temperature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Global_Temperature.xml; sourceTree = "<group>"; };
+		147B26251D41BEB50041260E /* Hediffs_Local_AddedParts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_AddedParts.xml; sourceTree = "<group>"; };
+		147B26261D41BEB50041260E /* Hediffs_Local_Chronic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_Chronic.xml; sourceTree = "<group>"; };
+		147B26271D41BEB50041260E /* Hediffs_Local_Implants.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_Implants.xml; sourceTree = "<group>"; };
+		147B26281D41BEB50041260E /* Hediffs_Local_Infections.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_Infections.xml; sourceTree = "<group>"; };
+		147B26291D41BEB50041260E /* Hediffs_Local_Injuries.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_Injuries.xml; sourceTree = "<group>"; };
+		147B262A1D41BEB50041260E /* Hediffs_Local_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Hediffs_Local_Misc.xml; sourceTree = "<group>"; };
+		147B262C1D41BEB50041260E /* HediffGiverSets.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HediffGiverSets.xml; sourceTree = "<group>"; };
+		147B262E1D41BEB50041260E /* HistoryAutoRecorders.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HistoryAutoRecorders.xml; sourceTree = "<group>"; };
+		147B26301D41BEB50041260E /* HistoryAutoRecorderGroups.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HistoryAutoRecorderGroups.xml; sourceTree = "<group>"; };
+		147B26321D41BEB50041260E /* Incidents_Disease.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_Disease.xml; sourceTree = "<group>"; };
+		147B26331D41BEB50041260E /* Incidents_ThreatsBig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_ThreatsBig.xml; sourceTree = "<group>"; };
+		147B26341D41BEB50041260E /* Incidents_ThreatsSmall.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_ThreatsSmall.xml; sourceTree = "<group>"; };
+		147B26351D41BEB50041260E /* Incidents_Various_Bad.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_Various_Bad.xml; sourceTree = "<group>"; };
+		147B26361D41BEB50041260E /* Incidents_Various_Good.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_Various_Good.xml; sourceTree = "<group>"; };
+		147B26371D41BEB50041260E /* Incidents_Various_Neutral.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Incidents_Various_Neutral.xml; sourceTree = "<group>"; };
+		147B26391D41BEB50041260E /* Interactions_Animal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interactions_Animal.xml; sourceTree = "<group>"; };
+		147B263A1D41BEB50041260E /* Interactions_Directed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interactions_Directed.xml; sourceTree = "<group>"; };
+		147B263B1D41BEB50041260E /* Interactions_Romance.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interactions_Romance.xml; sourceTree = "<group>"; };
+		147B263C1D41BEB50041260E /* Interactions_Social.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interactions_Social.xml; sourceTree = "<group>"; };
+		147B263E1D41BEB50041260E /* Jobs_Animal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jobs_Animal.xml; sourceTree = "<group>"; };
+		147B263F1D41BEB50041260E /* Jobs_Gatherings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jobs_Gatherings.xml; sourceTree = "<group>"; };
+		147B26401D41BEB50041260E /* Jobs_Joy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jobs_Joy.xml; sourceTree = "<group>"; };
+		147B26411D41BEB50041260E /* Jobs_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jobs_Misc.xml; sourceTree = "<group>"; };
+		147B26421D41BEB50041260E /* Jobs_Work.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jobs_Work.xml; sourceTree = "<group>"; };
+		147B26441D41BEB50041260E /* JoyGivers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JoyGivers.xml; sourceTree = "<group>"; };
+		147B26461D41BEB50041260E /* JoyKinds.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JoyKinds.xml; sourceTree = "<group>"; };
+		147B26481D41BEB50041260E /* KeyBindingCategories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KeyBindingCategories.xml; sourceTree = "<group>"; };
+		147B264A1D41BEB50041260E /* KeyBindings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KeyBindings.xml; sourceTree = "<group>"; };
+		147B264C1D41BEB50041260E /* LifeStages.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = LifeStages.xml; sourceTree = "<group>"; };
+		147B264E1D41BEB50041260E /* MainTabs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MainTabs.xml; sourceTree = "<group>"; };
+		147B26501D41BEB50041260E /* MapConditions_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MapConditions_Misc.xml; sourceTree = "<group>"; };
+		147B26521D41BEB50041260E /* MapGenerators.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MapGenerators.xml; sourceTree = "<group>"; };
+		147B26541D41BEB50041260E /* MentalStates_Mood.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MentalStates_Mood.xml; sourceTree = "<group>"; };
+		147B26551D41BEB50041260E /* MentalStates_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MentalStates_Special.xml; sourceTree = "<group>"; };
+		147B26571D41BEB50041260E /* Needs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Needs.xml; sourceTree = "<group>"; };
+		147B26591D41BEB50041260E /* PawnCapacity.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnCapacity.xml; sourceTree = "<group>"; };
+		147B265C1D41BEB50041260E /* PawnKinds_Mechanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Mechanoid.xml; sourceTree = "<group>"; };
+		147B265D1D41BEB50041260E /* PawnKinds_Mercenary.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Mercenary.xml; sourceTree = "<group>"; };
+		147B265E1D41BEB50041260E /* PawnKinds_Outlander.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Outlander.xml; sourceTree = "<group>"; };
+		147B265F1D41BEB50041260E /* PawnKinds_Pirate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Pirate.xml; sourceTree = "<group>"; };
+		147B26601D41BEB50041260E /* PawnKinds_Player.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Player.xml; sourceTree = "<group>"; };
+		147B26611D41BEB50041260E /* PawnKinds_Slave.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Slave.xml; sourceTree = "<group>"; };
+		147B26621D41BEB50041260E /* PawnKinds_Spacer.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Spacer.xml; sourceTree = "<group>"; };
+		147B26631D41BEB50041260E /* PawnKinds_Tribal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnKinds_Tribal.xml; sourceTree = "<group>"; };
+		147B26651D41BEB50041260E /* PawnRelations_FamilyByBlood.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnRelations_FamilyByBlood.xml; sourceTree = "<group>"; };
+		147B26661D41BEB50041260E /* PawnRelations_FamilyByChoice.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnRelations_FamilyByChoice.xml; sourceTree = "<group>"; };
+		147B26671D41BEB50041260E /* PawnRelations_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PawnRelations_Misc.xml; sourceTree = "<group>"; };
+		147B26691D41BEB50041260E /* RaidStrategies.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RaidStrategies.xml; sourceTree = "<group>"; };
+		147B266B1D41BEB50041260E /* Recipes_Butchery.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Butchery.xml; sourceTree = "<group>"; };
+		147B266C1D41BEB50041260E /* Recipes_Cremation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Cremation.xml; sourceTree = "<group>"; };
+		147B266D1D41BEB50041260E /* Recipes_Drugs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Drugs.xml; sourceTree = "<group>"; };
+		147B266E1D41BEB50041260E /* Recipes_Food.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Food.xml; sourceTree = "<group>"; };
+		147B266F1D41BEB50041260E /* Recipes_Meals.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Meals.xml; sourceTree = "<group>"; };
+		147B26701D41BEB50041260E /* Recipes_Production.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Production.xml; sourceTree = "<group>"; };
+		147B26711D41BEB50041260E /* Recipes_Surgery.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Surgery.xml; sourceTree = "<group>"; };
+		147B26721D41BEB50041260E /* Recipes_Surgery_Implants.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Surgery_Implants.xml; sourceTree = "<group>"; };
+		147B26731D41BEB50041260E /* Recipes_Surgery_NewParts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recipes_Surgery_NewParts.xml; sourceTree = "<group>"; };
+		147B26751D41BEB50041260E /* Records_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Records_Misc.xml; sourceTree = "<group>"; };
+		147B26761D41BEB50041260E /* Records_Time.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Records_Time.xml; sourceTree = "<group>"; };
+		147B26781D41BEB50041260E /* ResearchProjects_Tier1_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResearchProjects_Tier1_Misc.xml; sourceTree = "<group>"; };
+		147B26791D41BEB50041260E /* ResearchProjects_Tier2_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResearchProjects_Tier2_Misc.xml; sourceTree = "<group>"; };
+		147B267A1D41BEB50041260E /* ResearchProjects_Tier3_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResearchProjects_Tier3_Misc.xml; sourceTree = "<group>"; };
+		147B267B1D41BEB50041260E /* ResearchProjects_Tier4_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResearchProjects_Tier4_Misc.xml; sourceTree = "<group>"; };
+		147B267C1D41BEB50041260E /* ResearchProjects_Tier4_Ship.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ResearchProjects_Tier4_Ship.xml; sourceTree = "<group>"; };
+		147B267E1D41BEB50041260E /* Roofs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Roofs.xml; sourceTree = "<group>"; };
+		147B26801D41BEB50041260E /* RoomRoles.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RoomRoles.xml; sourceTree = "<group>"; };
+		147B26821D41BEB50041260E /* RoomStats.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RoomStats.xml; sourceTree = "<group>"; };
+		147B26841D41BEB50041260E /* RulePacks_Art_DescriptionRoot.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Art_DescriptionRoot.xml; sourceTree = "<group>"; };
+		147B26851D41BEB50041260E /* RulePacks_Art_ImagesTaleless.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Art_ImagesTaleless.xml; sourceTree = "<group>"; };
+		147B26861D41BEB50041260E /* RulePacks_Art_NameRoots.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Art_NameRoots.xml; sourceTree = "<group>"; };
+		147B26871D41BEB50041260E /* RulePacks_Art_PhysicalDescriptionRoots.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Art_PhysicalDescriptionRoots.xml; sourceTree = "<group>"; };
+		147B26881D41BEB50041260E /* RulePacks_Global.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Global.xml; sourceTree = "<group>"; };
+		147B26891D41BEB50041260E /* RulePacks_InteractionsExtra.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_InteractionsExtra.xml; sourceTree = "<group>"; };
+		147B268A1D41BEB50041260E /* RulePacks_NameMaker_World.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMaker_World.xml; sourceTree = "<group>"; };
+		147B268B1D41BEB50041260E /* RulePacks_NameMakers_Animals.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMakers_Animals.xml; sourceTree = "<group>"; };
+		147B268C1D41BEB50041260E /* RulePacks_NameMakers_Factions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMakers_Factions.xml; sourceTree = "<group>"; };
+		147B268D1D41BEB50041260E /* RulePacks_NameMakers_People.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMakers_People.xml; sourceTree = "<group>"; };
+		147B268E1D41BEB50041260E /* RulePacks_NameMakers_Scenarios.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMakers_Scenarios.xml; sourceTree = "<group>"; };
+		147B268F1D41BEB50041260E /* RulePacks_NameMakers_Traders.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_NameMakers_Traders.xml; sourceTree = "<group>"; };
+		147B26901D41BEB50041260E /* RulePacks_Seeds.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = RulePacks_Seeds.xml; sourceTree = "<group>"; };
+		147B26921D41BEB50041260E /* Scatterables.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Scatterables.xml; sourceTree = "<group>"; };
+		147B26941D41BEB50041260E /* Scenarios_Classic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Scenarios_Classic.xml; sourceTree = "<group>"; };
+		147B26951D41BEB50041260E /* Scenarios_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Scenarios_Special.xml; sourceTree = "<group>"; };
+		147B26971D41BEB50041260E /* ScenParts_Fixed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ScenParts_Fixed.xml; sourceTree = "<group>"; };
+		147B26981D41BEB50041260E /* ScenParts_Various.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ScenParts_Various.xml; sourceTree = "<group>"; };
+		147B269A1D41BEB50041260E /* Skills.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Skills.xml; sourceTree = "<group>"; };
+		147B269C1D41BEB50041260E /* Songs_Entry.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Songs_Entry.xml; sourceTree = "<group>"; };
+		147B269D1D41BEB50041260E /* Songs_Gameplay.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Songs_Gameplay.xml; sourceTree = "<group>"; };
+		147B269E1D41BEB50041260E /* Songs_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Songs_Misc.xml; sourceTree = "<group>"; };
+		147B269F1D41BEB50041260E /* Songs_Tension.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Songs_Tension.xml; sourceTree = "<group>"; };
+		147B26A11D41BEB50041260E /* Building_Oneshots_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Building_Oneshots_Misc.xml; sourceTree = "<group>"; };
+		147B26A21D41BEB50041260E /* Building_Oneshots_Natural.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Building_Oneshots_Natural.xml; sourceTree = "<group>"; };
+		147B26A31D41BEB50041260E /* Building_Sustainers_Ambiences.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Building_Sustainers_Ambiences.xml; sourceTree = "<group>"; };
+		147B26A41D41BEB50041260E /* Exotic_Oneshots.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Exotic_Oneshots.xml; sourceTree = "<group>"; };
+		147B26A51D41BEB50041260E /* Interact_Oneshots_Melee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Oneshots_Melee.xml; sourceTree = "<group>"; };
+		147B26A61D41BEB50041260E /* Interact_Oneshots_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Oneshots_Misc.xml; sourceTree = "<group>"; };
+		147B26A71D41BEB50041260E /* Interact_Oneshots_PickupDrop.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Oneshots_PickupDrop.xml; sourceTree = "<group>"; };
+		147B26A81D41BEB50041260E /* Interact_Oneshots_Violent.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Oneshots_Violent.xml; sourceTree = "<group>"; };
+		147B26A91D41BEB50041260E /* Interact_Sustainers_Eating.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Sustainers_Eating.xml; sourceTree = "<group>"; };
+		147B26AA1D41BEB50041260E /* Interact_Sustainers_Work.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Interact_Sustainers_Work.xml; sourceTree = "<group>"; };
+		147B26AB1D41BEB50041260E /* Pawn_Animal_Domestic_Vox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pawn_Animal_Domestic_Vox.xml; sourceTree = "<group>"; };
+		147B26AC1D41BEB50041260E /* Pawn_Animal_Insect_Vox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pawn_Animal_Insect_Vox.xml; sourceTree = "<group>"; };
+		147B26AD1D41BEB50041260E /* Pawn_Animal_Misc_Vox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pawn_Animal_Misc_Vox.xml; sourceTree = "<group>"; };
+		147B26AE1D41BEB50041260E /* Pawn_Mech_Vox.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Pawn_Mech_Vox.xml; sourceTree = "<group>"; };
+		147B26AF1D41BEB50041260E /* UI_Oneshots_ClockControls.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UI_Oneshots_ClockControls.xml; sourceTree = "<group>"; };
+		147B26B01D41BEB50041260E /* UI_Oneshots_Designation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UI_Oneshots_Designation.xml; sourceTree = "<group>"; };
+		147B26B11D41BEB50041260E /* UI_Oneshots_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UI_Oneshots_Misc.xml; sourceTree = "<group>"; };
+		147B26B21D41BEB50041260E /* UI_Sustainers_Designation.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UI_Sustainers_Designation.xml; sourceTree = "<group>"; };
+		147B26B31D41BEB50041260E /* UI_Sustainers_Trade.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = UI_Sustainers_Trade.xml; sourceTree = "<group>"; };
+		147B26B41D41BEB50041260E /* World_Oneshots_Doors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Doors.xml; sourceTree = "<group>"; };
+		147B26B51D41BEB50041260E /* World_Oneshots_Explosions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Explosions.xml; sourceTree = "<group>"; };
+		147B26B61D41BEB50041260E /* World_Oneshots_GunTurret.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_GunTurret.xml; sourceTree = "<group>"; };
+		147B26B71D41BEB50041260E /* World_Oneshots_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Misc.xml; sourceTree = "<group>"; };
+		147B26B81D41BEB50041260E /* World_Oneshots_Mortars.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Mortars.xml; sourceTree = "<group>"; };
+		147B26B91D41BEB50041260E /* World_Oneshots_ProjectileImpacts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_ProjectileImpacts.xml; sourceTree = "<group>"; };
+		147B26BA1D41BEB50041260E /* World_Oneshots_Tails.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Tails.xml; sourceTree = "<group>"; };
+		147B26BB1D41BEB50041260E /* World_Oneshots_Weapons.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Oneshots_Weapons.xml; sourceTree = "<group>"; };
+		147B26BC1D41BEB50041260E /* World_Sustainers_Ambiences.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Sustainers_Ambiences.xml; sourceTree = "<group>"; };
+		147B26BD1D41BEB50041260E /* World_Sustainers_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = World_Sustainers_Misc.xml; sourceTree = "<group>"; };
+		147B26BF1D41BEB50041260E /* SpecialThingFilters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SpecialThingFilters.xml; sourceTree = "<group>"; };
+		147B26C11D41BEB50041260E /* StatCategories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = StatCategories.xml; sourceTree = "<group>"; };
+		147B26C31D41BEB50041260E /* Stats_Apparel.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Apparel.xml; sourceTree = "<group>"; };
+		147B26C41D41BEB50041260E /* Stats_Basics_General.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Basics_General.xml; sourceTree = "<group>"; };
+		147B26C51D41BEB50041260E /* Stats_Basics_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Basics_Special.xml; sourceTree = "<group>"; };
+		147B26C61D41BEB50041260E /* Stats_Building_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Building_Special.xml; sourceTree = "<group>"; };
+		147B26C71D41BEB50041260E /* Stats_Pawns_Combat.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_Combat.xml; sourceTree = "<group>"; };
+		147B26C81D41BEB50041260E /* Stats_Pawns_General.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_General.xml; sourceTree = "<group>"; };
+		147B26C91D41BEB50041260E /* Stats_Pawns_Social.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_Social.xml; sourceTree = "<group>"; };
+		147B26CA1D41BEB50041260E /* Stats_Pawns_WorkGeneral.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_WorkGeneral.xml; sourceTree = "<group>"; };
+		147B26CB1D41BEB50041260E /* Stats_Pawns_WorkMedical.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_WorkMedical.xml; sourceTree = "<group>"; };
+		147B26CC1D41BEB50041260E /* Stats_Pawns_WorkRecipes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Pawns_WorkRecipes.xml; sourceTree = "<group>"; };
+		147B26CD1D41BEB50041260E /* Stats_Weapons_Melee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Weapons_Melee.xml; sourceTree = "<group>"; };
+		147B26CE1D41BEB50041260E /* Stats_Weapons_Ranged.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Stats_Weapons_Ranged.xml; sourceTree = "<group>"; };
+		147B26D01D41BEB50041260E /* Storytellers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Storytellers.xml; sourceTree = "<group>"; };
+		147B26D21D41BEB50041260E /* StuffCategories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = StuffCategories.xml; sourceTree = "<group>"; };
+		147B26D51D41BEB50041260E /* Tales_DoublePawn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tales_DoublePawn.xml; sourceTree = "<group>"; };
+		147B26D61D41BEB50041260E /* Tales_DoublePawn_Relationships.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tales_DoublePawn_Relationships.xml; sourceTree = "<group>"; };
+		147B26D71D41BEB50041260E /* Tales_NoPawn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tales_NoPawn.xml; sourceTree = "<group>"; };
+		147B26D81D41BEB50041260E /* Tales_SinglePawn.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tales_SinglePawn.xml; sourceTree = "<group>"; };
+		147B26DA1D41BEB50041260E /* Terrain_Floors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Terrain_Floors.xml; sourceTree = "<group>"; };
+		147B26DB1D41BEB50041260E /* Terrain_FloorsStoneTile.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Terrain_FloorsStoneTile.xml; sourceTree = "<group>"; };
+		147B26DC1D41BEB50041260E /* Terrain_Natural.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Terrain_Natural.xml; sourceTree = "<group>"; };
+		147B26DD1D41BEB50041260E /* Terrain_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Terrain_Special.xml; sourceTree = "<group>"; };
+		147B26DE1D41BEB50041260E /* Terrain_Water.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Terrain_Water.xml; sourceTree = "<group>"; };
+		147B26E01D41BEB50041260E /* ThingCategories.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ThingCategories.xml; sourceTree = "<group>"; };
+		147B26E21D41BEB50041260E /* Buildings_Art.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Art.xml; sourceTree = "<group>"; };
+		147B26E31D41BEB50041260E /* Buildings_Exotic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Exotic.xml; sourceTree = "<group>"; };
+		147B26E41D41BEB50041260E /* Buildings_Furniture.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Furniture.xml; sourceTree = "<group>"; };
+		147B26E51D41BEB50041260E /* Buildings_Joy.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Joy.xml; sourceTree = "<group>"; };
+		147B26E61D41BEB50041260E /* Buildings_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Misc.xml; sourceTree = "<group>"; };
+		147B26E71D41BEB50041260E /* Buildings_Natural.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Natural.xml; sourceTree = "<group>"; };
+		147B26E81D41BEB50041260E /* Buildings_Power.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Power.xml; sourceTree = "<group>"; };
+		147B26E91D41BEB50041260E /* Buildings_Power_WindTurbine.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Power_WindTurbine.xml; sourceTree = "<group>"; };
+		147B26EA1D41BEB50041260E /* Buildings_Production.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Production.xml; sourceTree = "<group>"; };
+		147B26EB1D41BEB50041260E /* Buildings_Security.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Security.xml; sourceTree = "<group>"; };
+		147B26EC1D41BEB50041260E /* Buildings_Ship.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Ship.xml; sourceTree = "<group>"; };
+		147B26ED1D41BEB50041260E /* Buildings_Structure.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Structure.xml; sourceTree = "<group>"; };
+		147B26EE1D41BEB50041260E /* Buildings_Temperature.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Buildings_Temperature.xml; sourceTree = "<group>"; };
+		147B26F01D41BEB50041260E /* Items_Artifacts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Artifacts.xml; sourceTree = "<group>"; };
+		147B26F11D41BEB50041260E /* Items_BodyParts.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_BodyParts.xml; sourceTree = "<group>"; };
+		147B26F21D41BEB50041260E /* Items_Exotic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Exotic.xml; sourceTree = "<group>"; };
+		147B26F31D41BEB50041260E /* Items_Food.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Food.xml; sourceTree = "<group>"; };
+		147B26F41D41BEB50041260E /* Items_Implants.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Implants.xml; sourceTree = "<group>"; };
+		147B26F51D41BEB50041260E /* Items_Luxury.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Luxury.xml; sourceTree = "<group>"; };
+		147B26F61D41BEB50041260E /* Items_Resource_AnimalProduct.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Resource_AnimalProduct.xml; sourceTree = "<group>"; };
+		147B26F71D41BEB50041260E /* Items_Resource_Manufactured.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Resource_Manufactured.xml; sourceTree = "<group>"; };
+		147B26F81D41BEB50041260E /* Items_Resource_RawPlant.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Resource_RawPlant.xml; sourceTree = "<group>"; };
+		147B26F91D41BEB50041260E /* Items_Resource_Stuff.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Resource_Stuff.xml; sourceTree = "<group>"; };
+		147B26FA1D41BEB50041260E /* Items_Unfinished.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Items_Unfinished.xml; sourceTree = "<group>"; };
+		147B26FC1D41BEB50041260E /* Apparel_Hats.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Apparel_Hats.xml; sourceTree = "<group>"; };
+		147B26FD1D41BEB50041260E /* Apparel_Shield.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Apparel_Shield.xml; sourceTree = "<group>"; };
+		147B26FE1D41BEB50041260E /* Apparel_Various.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Apparel_Various.xml; sourceTree = "<group>"; };
+		147B26FF1D41BEB50041260E /* Filth_Various.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Filth_Various.xml; sourceTree = "<group>"; };
+		147B27001D41BEB50041260E /* Motes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Motes.xml; sourceTree = "<group>"; };
+		147B27011D41BEB50041260E /* Things_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Things_Special.xml; sourceTree = "<group>"; };
+		147B27021D41BEB50041260E /* Various_Stone.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Various_Stone.xml; sourceTree = "<group>"; };
+		147B27031D41BEB50041260E /* Weapons_Artillery.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weapons_Artillery.xml; sourceTree = "<group>"; };
+		147B27041D41BEB50041260E /* Weapons_Grenades.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weapons_Grenades.xml; sourceTree = "<group>"; };
+		147B27051D41BEB50041260E /* Weapons_Guns.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weapons_Guns.xml; sourceTree = "<group>"; };
+		147B27061D41BEB50041260E /* Weapons_Melee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weapons_Melee.xml; sourceTree = "<group>"; };
+		147B27071D41BEB50041260E /* Weapons_RangedNeolithic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weapons_RangedNeolithic.xml; sourceTree = "<group>"; };
+		147B27091D41BEB50041260E /* Plants_Bases.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Bases.xml; sourceTree = "<group>"; };
+		147B270A1D41BEB50041260E /* Plants_Cultivated_Decorative.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Cultivated_Decorative.xml; sourceTree = "<group>"; };
+		147B270B1D41BEB50041260E /* Plants_Cultivated_Farm.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Cultivated_Farm.xml; sourceTree = "<group>"; };
+		147B270C1D41BEB50041260E /* Plants_Wild_Arid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Wild_Arid.xml; sourceTree = "<group>"; };
+		147B270D1D41BEB50041260E /* Plants_Wild_Temperate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Wild_Temperate.xml; sourceTree = "<group>"; };
+		147B270E1D41BEB50041260E /* Plants_Wild_Tropical.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Plants_Wild_Tropical.xml; sourceTree = "<group>"; };
+		147B27101D41BEB50041260E /* Races_Animal_Arid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Arid.xml; sourceTree = "<group>"; };
+		147B27111D41BEB50041260E /* Races_Animal_Base.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Base.xml; sourceTree = "<group>"; };
+		147B27121D41BEB50041260E /* Races_Animal_Bears.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Bears.xml; sourceTree = "<group>"; };
+		147B27131D41BEB50041260E /* Races_Animal_BigCats.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_BigCats.xml; sourceTree = "<group>"; };
+		147B27141D41BEB50041260E /* Races_Animal_Birds.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Birds.xml; sourceTree = "<group>"; };
+		147B27151D41BEB50041260E /* Races_Animal_Farm.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Farm.xml; sourceTree = "<group>"; };
+		147B27161D41BEB50041260E /* Races_Animal_Giant.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Giant.xml; sourceTree = "<group>"; };
+		147B27171D41BEB50041260E /* Races_Animal_Hares.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Hares.xml; sourceTree = "<group>"; };
+		147B27181D41BEB50041260E /* Races_Animal_Insect.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Insect.xml; sourceTree = "<group>"; };
+		147B27191D41BEB50041260E /* Races_Animal_Pet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Pet.xml; sourceTree = "<group>"; };
+		147B271A1D41BEB50041260E /* Races_Animal_Rodentlike.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Rodentlike.xml; sourceTree = "<group>"; };
+		147B271B1D41BEB50041260E /* Races_Animal_Temperate.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Temperate.xml; sourceTree = "<group>"; };
+		147B271C1D41BEB50041260E /* Races_Animal_Tropical.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_Tropical.xml; sourceTree = "<group>"; };
+		147B271D1D41BEB50041260E /* Races_Animal_WildCanines.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Animal_WildCanines.xml; sourceTree = "<group>"; };
+		147B271E1D41BEB50041260E /* Races_Humanlike.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Humanlike.xml; sourceTree = "<group>"; };
+		147B271F1D41BEB50041260E /* Races_Mechanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Races_Mechanoid.xml; sourceTree = "<group>"; };
+		147B27211D41BEB50041260E /* Animal.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Animal.xml; sourceTree = "<group>"; };
+		147B27221D41BEB50041260E /* Humanlike.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Humanlike.xml; sourceTree = "<group>"; };
+		147B27231D41BEB50041260E /* Mechanoid.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Mechanoid.xml; sourceTree = "<group>"; };
+		147B27241D41BEB50041260E /* SubTrees_Duty.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SubTrees_Duty.xml; sourceTree = "<group>"; };
+		147B27251D41BEB50041260E /* SubTrees_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SubTrees_Misc.xml; sourceTree = "<group>"; };
+		147B27271D41BEB50041260E /* Thoughts_Exotic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Exotic.xml; sourceTree = "<group>"; };
+		147B27281D41BEB50041260E /* Thoughts_Memory_Death.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Death.xml; sourceTree = "<group>"; };
+		147B27291D41BEB50041260E /* Thoughts_Memory_Debug.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Debug.xml; sourceTree = "<group>"; };
+		147B272A1D41BEB50041260E /* Thoughts_Memory_Eating.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Eating.xml; sourceTree = "<group>"; };
+		147B272B1D41BEB50041260E /* Thoughts_Memory_Gatherings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Gatherings.xml; sourceTree = "<group>"; };
+		147B272C1D41BEB50041260E /* Thoughts_Memory_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Misc.xml; sourceTree = "<group>"; };
+		147B272D1D41BEB50041260E /* Thoughts_Memory_Social.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Memory_Social.xml; sourceTree = "<group>"; };
+		147B272E1D41BEB50041260E /* Thoughts_Random.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Random.xml; sourceTree = "<group>"; };
+		147B272F1D41BEB50041260E /* Thoughts_Situation_Drugs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_Drugs.xml; sourceTree = "<group>"; };
+		147B27301D41BEB50041260E /* Thoughts_Situation_General.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_General.xml; sourceTree = "<group>"; };
+		147B27311D41BEB50041260E /* Thoughts_Situation_MentalState.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_MentalState.xml; sourceTree = "<group>"; };
+		147B27321D41BEB50041260E /* Thoughts_Situation_Needs.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_Needs.xml; sourceTree = "<group>"; };
+		147B27331D41BEB50041260E /* Thoughts_Situation_RoomStats.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_RoomStats.xml; sourceTree = "<group>"; };
+		147B27341D41BEB50041260E /* Thoughts_Situation_Social.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_Social.xml; sourceTree = "<group>"; };
+		147B27351D41BEB50041260E /* Thoughts_Situation_Special.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_Special.xml; sourceTree = "<group>"; };
+		147B27361D41BEB50041260E /* Thoughts_Situation_Traits.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_Traits.xml; sourceTree = "<group>"; };
+		147B27371D41BEB50041260E /* Thoughts_Situation_TraitsPerm.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Thoughts_Situation_TraitsPerm.xml; sourceTree = "<group>"; };
+		147B27391D41BEB50041260E /* TimeAssignments.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TimeAssignments.xml; sourceTree = "<group>"; };
+		147B273B1D41BEB50041260E /* TradeDialogSorters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TradeDialogSorters.xml; sourceTree = "<group>"; };
+		147B273D1D41BEB50041260E /* TraderKinds_Caravan_Neolithic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TraderKinds_Caravan_Neolithic.xml; sourceTree = "<group>"; };
+		147B273E1D41BEB50041260E /* TraderKinds_Caravan_Outlander.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TraderKinds_Caravan_Outlander.xml; sourceTree = "<group>"; };
+		147B273F1D41BEB50041260E /* TraderKinds_Orbital_Misc.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TraderKinds_Orbital_Misc.xml; sourceTree = "<group>"; };
+		147B27401D41BEB50041260E /* TraderKinds_Visitor_Neolithic.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TraderKinds_Visitor_Neolithic.xml; sourceTree = "<group>"; };
+		147B27411D41BEB50041260E /* TraderKinds_Visitor_Outlander.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TraderKinds_Visitor_Outlander.xml; sourceTree = "<group>"; };
+		147B27441D41BEB50041260E /* Trainables.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Trainables.xml; sourceTree = "<group>"; };
+		147B27461D41BEB50041260E /* Traits_Singular.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Traits_Singular.xml; sourceTree = "<group>"; };
+		147B27471D41BEB50041260E /* Traits_Spectrum.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Traits_Spectrum.xml; sourceTree = "<group>"; };
+		147B27491D41BEB50041260E /* Weathers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Weathers.xml; sourceTree = "<group>"; };
+		147B274B1D41BEB50041260E /* WorkGivers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WorkGivers.xml; sourceTree = "<group>"; };
+		147B274D1D41BEB50041260E /* WorkTypes.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WorkTypes.xml; sourceTree = "<group>"; };
 		B8A12F1C73FA73895E53EBB5 /* Pods_RimworldPocketGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimworldPocketGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F42A3370F8300D6DBC14F4 /* Pods-RimworldPocketGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimworldPocketGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-RimworldPocketGuide/Pods-RimworldPocketGuide.release.xcconfig"; sourceTree = "<group>"; };
 		E4D7DE3FBA1AF81D6637584A /* Pods-RimworldPocketGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimworldPocketGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RimworldPocketGuide/Pods-RimworldPocketGuide.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +607,7 @@
 		140D95641D3DD13F00C86FF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				147B25E31D41BEB50041260E /* Core */,
 				144CDF221D3DC5BD00964D19 /* Assets.xcassets */,
 				144CDF271D3DC5BD00964D19 /* Info.plist */,
 				140D95621D3DCC5C00C86FF6 /* LaunchScreen.storyboard */,
@@ -74,6 +641,928 @@
 				140D95641D3DD13F00C86FF6 /* Supporting Files */,
 			);
 			path = RimworldPocketGuide;
+			sourceTree = "<group>";
+		};
+		147B25E31D41BEB50041260E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				147B25E41D41BEB50041260E /* About */,
+				147B25E71D41BEB50041260E /* Defs */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		147B25E41D41BEB50041260E /* About */ = {
+			isa = PBXGroup;
+			children = (
+				147B25E51D41BEB50041260E /* About.xml */,
+				147B25E61D41BEB50041260E /* Preview.png */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		147B25E71D41BEB50041260E /* Defs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25E81D41BEB50041260E /* BiomeDefs */,
+				147B25EC1D41BEB50041260E /* BodyDefs */,
+				147B25F31D41BEB50041260E /* BodyPartDefs */,
+				147B25F91D41BEB50041260E /* BodyPartGroupDefs */,
+				147B25FB1D41BEB50041260E /* BrokenStateDefs */,
+				147B25FC1D41BEB50041260E /* ConceptDefs */,
+				147B26011D41BEB50041260E /* DamageDefs */,
+				147B26051D41BEB50041260E /* DesignationCategoryDefs */,
+				147B26071D41BEB50041260E /* DesignationDefs */,
+				147B26091D41BEB50041260E /* DifficultyDefs */,
+				147B260B1D41BEB50041260E /* Drugs */,
+				147B260C1D41BEB50041260E /* DutyDefs */,
+				147B260F1D41BEB50041260E /* EffecterDefs */,
+				147B26171D41BEB50041260E /* Effects */,
+				147B26181D41BEB50041260E /* FactionDefs */,
+				147B261C1D41BEB50041260E /* GatheringDefs */,
+				147B261D1D41BEB50041260E /* HairDefs */,
+				147B261F1D41BEB50041260E /* HediffDefs */,
+				147B262B1D41BEB50041260E /* HediffGiverSetDefs */,
+				147B262D1D41BEB50041260E /* HistoryAutoRecorderDefs */,
+				147B262F1D41BEB50041260E /* HistoryAutoRecorderGroupDefs */,
+				147B26311D41BEB50041260E /* IncidentDefs */,
+				147B26381D41BEB50041260E /* InteractionDefs */,
+				147B263D1D41BEB50041260E /* JobDefs */,
+				147B26431D41BEB50041260E /* JoyGiverDefs */,
+				147B26451D41BEB50041260E /* JoyKindDefs */,
+				147B26471D41BEB50041260E /* KeyBindingCategoryDefs */,
+				147B26491D41BEB50041260E /* KeyBindingDefs */,
+				147B264B1D41BEB50041260E /* LifeStageDefs */,
+				147B264D1D41BEB50041260E /* MainTabDefs */,
+				147B264F1D41BEB50041260E /* MapConditionDefs */,
+				147B26511D41BEB50041260E /* MapGeneratorDefs */,
+				147B26531D41BEB50041260E /* MentalStateDefs */,
+				147B26561D41BEB50041260E /* NeedDefs */,
+				147B26581D41BEB50041260E /* PawnCapacityDefs */,
+				147B265A1D41BEB50041260E /* PawnKindDefs */,
+				147B265B1D41BEB50041260E /* PawnKindDefs_Humanlikes */,
+				147B26641D41BEB50041260E /* PawnRelationDefs */,
+				147B26681D41BEB50041260E /* RaidStrategyDefs */,
+				147B266A1D41BEB50041260E /* RecipeDefs */,
+				147B26741D41BEB50041260E /* RecordDefs */,
+				147B26771D41BEB50041260E /* ResearchProjectDefs */,
+				147B267D1D41BEB50041260E /* RoofDefs */,
+				147B267F1D41BEB50041260E /* RoomRoleDefs */,
+				147B26811D41BEB50041260E /* RoomStatDefs */,
+				147B26831D41BEB50041260E /* RulePackDefs */,
+				147B26911D41BEB50041260E /* ScatterableDefs */,
+				147B26931D41BEB50041260E /* ScenarioDefs */,
+				147B26961D41BEB50041260E /* ScenPartDefs */,
+				147B26991D41BEB50041260E /* SkillDefs */,
+				147B269B1D41BEB50041260E /* SongDefs */,
+				147B26A01D41BEB50041260E /* SoundDefs */,
+				147B26BE1D41BEB50041260E /* SpecialThingFilterDefs */,
+				147B26C01D41BEB50041260E /* StatCategoryDefs */,
+				147B26C21D41BEB50041260E /* StatDefs */,
+				147B26CF1D41BEB50041260E /* StorytellerDefs */,
+				147B26D11D41BEB50041260E /* StuffCategoryDefs */,
+				147B26D31D41BEB50041260E /* StuffDefs */,
+				147B26D41D41BEB50041260E /* TaleDefs */,
+				147B26D91D41BEB50041260E /* TerrainDefs */,
+				147B26DF1D41BEB50041260E /* ThingCategoryDefs */,
+				147B26E11D41BEB50041260E /* ThingDefs_Buildings */,
+				147B26EF1D41BEB50041260E /* ThingDefs_Items */,
+				147B26FB1D41BEB50041260E /* ThingDefs_Misc */,
+				147B27081D41BEB50041260E /* ThingDefs_Plants */,
+				147B270F1D41BEB50041260E /* ThingDefs_Races */,
+				147B27201D41BEB50041260E /* ThinkTreeDefs */,
+				147B27261D41BEB50041260E /* ThoughtDefs */,
+				147B27381D41BEB50041260E /* TimeAssignmentDefs */,
+				147B273A1D41BEB50041260E /* TradeDialogSorterDefs */,
+				147B273C1D41BEB50041260E /* TraderKindDefs */,
+				147B27421D41BEB50041260E /* TrainableDef */,
+				147B27431D41BEB50041260E /* TrainableDefs */,
+				147B27451D41BEB50041260E /* TraitDefs */,
+				147B27481D41BEB50041260E /* WeatherDefs */,
+				147B274A1D41BEB50041260E /* WorkGiverDefs */,
+				147B274C1D41BEB50041260E /* WorkTypeDefs */,
+			);
+			path = Defs;
+			sourceTree = "<group>";
+		};
+		147B25E81D41BEB50041260E /* BiomeDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25E91D41BEB50041260E /* Biomes_Arid.xml */,
+				147B25EA1D41BEB50041260E /* Biomes_Cold.xml */,
+				147B25EB1D41BEB50041260E /* Biomes_Moderate.xml */,
+			);
+			path = BiomeDefs;
+			sourceTree = "<group>";
+		};
+		147B25EC1D41BEB50041260E /* BodyDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25ED1D41BEB50041260E /* Bodies_Animal_Bird.xml */,
+				147B25EE1D41BEB50041260E /* Bodies_Animal_Insect.xml */,
+				147B25EF1D41BEB50041260E /* Bodies_Animal_Quadruped.xml */,
+				147B25F01D41BEB50041260E /* Bodies_Animal_Snake.xml */,
+				147B25F11D41BEB50041260E /* Bodies_Humanlike.xml */,
+				147B25F21D41BEB50041260E /* Bodies_Mechanoid.xml */,
+			);
+			path = BodyDefs;
+			sourceTree = "<group>";
+		};
+		147B25F31D41BEB50041260E /* BodyPartDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25F41D41BEB50041260E /* BodyParts_Animal.xml */,
+				147B25F51D41BEB50041260E /* BodyParts_General.xml */,
+				147B25F61D41BEB50041260E /* BodyParts_Humanoid.xml */,
+				147B25F71D41BEB50041260E /* BodyParts_Mechanoid.xml */,
+				147B25F81D41BEB50041260E /* BodyParts_Organs.xml */,
+			);
+			path = BodyPartDefs;
+			sourceTree = "<group>";
+		};
+		147B25F91D41BEB50041260E /* BodyPartGroupDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25FA1D41BEB50041260E /* BodyPartGroups.xml */,
+			);
+			path = BodyPartGroupDefs;
+			sourceTree = "<group>";
+		};
+		147B25FB1D41BEB50041260E /* BrokenStateDefs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BrokenStateDefs;
+			sourceTree = "<group>";
+		};
+		147B25FC1D41BEB50041260E /* ConceptDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B25FD1D41BEB50041260E /* Concepts_Alerts.xml */,
+				147B25FE1D41BEB50041260E /* Concepts_Entry.xml */,
+				147B25FF1D41BEB50041260E /* Concepts_Noted.xml */,
+				147B26001D41BEB50041260E /* Concepts_TriggeredModal.xml */,
+			);
+			path = ConceptDefs;
+			sourceTree = "<group>";
+		};
+		147B26011D41BEB50041260E /* DamageDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26021D41BEB50041260E /* Damages_Healing.xml */,
+				147B26031D41BEB50041260E /* Damages_LocalInjury.xml */,
+				147B26041D41BEB50041260E /* Damages_Misc.xml */,
+			);
+			path = DamageDefs;
+			sourceTree = "<group>";
+		};
+		147B26051D41BEB50041260E /* DesignationCategoryDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26061D41BEB50041260E /* DesignationCategories.xml */,
+			);
+			path = DesignationCategoryDefs;
+			sourceTree = "<group>";
+		};
+		147B26071D41BEB50041260E /* DesignationDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26081D41BEB50041260E /* Designations.xml */,
+			);
+			path = DesignationDefs;
+			sourceTree = "<group>";
+		};
+		147B26091D41BEB50041260E /* DifficultyDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B260A1D41BEB50041260E /* Difficulties.xml */,
+			);
+			path = DifficultyDefs;
+			sourceTree = "<group>";
+		};
+		147B260B1D41BEB50041260E /* Drugs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Drugs;
+			sourceTree = "<group>";
+		};
+		147B260C1D41BEB50041260E /* DutyDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B260D1D41BEB50041260E /* Duties_Gatherings.xml */,
+				147B260E1D41BEB50041260E /* Duties_Misc.xml */,
+			);
+			path = DutyDefs;
+			sourceTree = "<group>";
+		};
+		147B260F1D41BEB50041260E /* EffecterDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26101D41BEB50041260E /* Effecters_Construction.xml */,
+				147B26111D41BEB50041260E /* Effecters_Damage.xml */,
+				147B26121D41BEB50041260E /* Effecters_Eat.xml */,
+				147B26131D41BEB50041260E /* Effecters_Misc.xml */,
+				147B26141D41BEB50041260E /* Effecters_PawnStates.xml */,
+				147B26151D41BEB50041260E /* Effecters_Recipes.xml */,
+				147B26161D41BEB50041260E /* Effecters_WorkGeneral.xml */,
+			);
+			path = EffecterDefs;
+			sourceTree = "<group>";
+		};
+		147B26171D41BEB50041260E /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		147B26181D41BEB50041260E /* FactionDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26191D41BEB50041260E /* Factions_Hidden.xml */,
+				147B261A1D41BEB50041260E /* Factions_Misc.xml */,
+				147B261B1D41BEB50041260E /* Factions_Player.xml */,
+			);
+			path = FactionDefs;
+			sourceTree = "<group>";
+		};
+		147B261C1D41BEB50041260E /* GatheringDefs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GatheringDefs;
+			sourceTree = "<group>";
+		};
+		147B261D1D41BEB50041260E /* HairDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B261E1D41BEB50041260E /* HairsGeneral.xml */,
+			);
+			path = HairDefs;
+			sourceTree = "<group>";
+		};
+		147B261F1D41BEB50041260E /* HediffDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26201D41BEB50041260E /* Hediffs_Global_Drugs.xml */,
+				147B26211D41BEB50041260E /* Hediffs_Global_Execution.xml */,
+				147B26221D41BEB50041260E /* Hediffs_Global_Misc.xml */,
+				147B26231D41BEB50041260E /* Hediffs_Global_Needs.xml */,
+				147B26241D41BEB50041260E /* Hediffs_Global_Temperature.xml */,
+				147B26251D41BEB50041260E /* Hediffs_Local_AddedParts.xml */,
+				147B26261D41BEB50041260E /* Hediffs_Local_Chronic.xml */,
+				147B26271D41BEB50041260E /* Hediffs_Local_Implants.xml */,
+				147B26281D41BEB50041260E /* Hediffs_Local_Infections.xml */,
+				147B26291D41BEB50041260E /* Hediffs_Local_Injuries.xml */,
+				147B262A1D41BEB50041260E /* Hediffs_Local_Misc.xml */,
+			);
+			path = HediffDefs;
+			sourceTree = "<group>";
+		};
+		147B262B1D41BEB50041260E /* HediffGiverSetDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B262C1D41BEB50041260E /* HediffGiverSets.xml */,
+			);
+			path = HediffGiverSetDefs;
+			sourceTree = "<group>";
+		};
+		147B262D1D41BEB50041260E /* HistoryAutoRecorderDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B262E1D41BEB50041260E /* HistoryAutoRecorders.xml */,
+			);
+			path = HistoryAutoRecorderDefs;
+			sourceTree = "<group>";
+		};
+		147B262F1D41BEB50041260E /* HistoryAutoRecorderGroupDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26301D41BEB50041260E /* HistoryAutoRecorderGroups.xml */,
+			);
+			path = HistoryAutoRecorderGroupDefs;
+			sourceTree = "<group>";
+		};
+		147B26311D41BEB50041260E /* IncidentDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26321D41BEB50041260E /* Incidents_Disease.xml */,
+				147B26331D41BEB50041260E /* Incidents_ThreatsBig.xml */,
+				147B26341D41BEB50041260E /* Incidents_ThreatsSmall.xml */,
+				147B26351D41BEB50041260E /* Incidents_Various_Bad.xml */,
+				147B26361D41BEB50041260E /* Incidents_Various_Good.xml */,
+				147B26371D41BEB50041260E /* Incidents_Various_Neutral.xml */,
+			);
+			path = IncidentDefs;
+			sourceTree = "<group>";
+		};
+		147B26381D41BEB50041260E /* InteractionDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26391D41BEB50041260E /* Interactions_Animal.xml */,
+				147B263A1D41BEB50041260E /* Interactions_Directed.xml */,
+				147B263B1D41BEB50041260E /* Interactions_Romance.xml */,
+				147B263C1D41BEB50041260E /* Interactions_Social.xml */,
+			);
+			path = InteractionDefs;
+			sourceTree = "<group>";
+		};
+		147B263D1D41BEB50041260E /* JobDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B263E1D41BEB50041260E /* Jobs_Animal.xml */,
+				147B263F1D41BEB50041260E /* Jobs_Gatherings.xml */,
+				147B26401D41BEB50041260E /* Jobs_Joy.xml */,
+				147B26411D41BEB50041260E /* Jobs_Misc.xml */,
+				147B26421D41BEB50041260E /* Jobs_Work.xml */,
+			);
+			path = JobDefs;
+			sourceTree = "<group>";
+		};
+		147B26431D41BEB50041260E /* JoyGiverDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26441D41BEB50041260E /* JoyGivers.xml */,
+			);
+			path = JoyGiverDefs;
+			sourceTree = "<group>";
+		};
+		147B26451D41BEB50041260E /* JoyKindDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26461D41BEB50041260E /* JoyKinds.xml */,
+			);
+			path = JoyKindDefs;
+			sourceTree = "<group>";
+		};
+		147B26471D41BEB50041260E /* KeyBindingCategoryDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26481D41BEB50041260E /* KeyBindingCategories.xml */,
+			);
+			path = KeyBindingCategoryDefs;
+			sourceTree = "<group>";
+		};
+		147B26491D41BEB50041260E /* KeyBindingDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B264A1D41BEB50041260E /* KeyBindings.xml */,
+			);
+			path = KeyBindingDefs;
+			sourceTree = "<group>";
+		};
+		147B264B1D41BEB50041260E /* LifeStageDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B264C1D41BEB50041260E /* LifeStages.xml */,
+			);
+			path = LifeStageDefs;
+			sourceTree = "<group>";
+		};
+		147B264D1D41BEB50041260E /* MainTabDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B264E1D41BEB50041260E /* MainTabs.xml */,
+			);
+			path = MainTabDefs;
+			sourceTree = "<group>";
+		};
+		147B264F1D41BEB50041260E /* MapConditionDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26501D41BEB50041260E /* MapConditions_Misc.xml */,
+			);
+			path = MapConditionDefs;
+			sourceTree = "<group>";
+		};
+		147B26511D41BEB50041260E /* MapGeneratorDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26521D41BEB50041260E /* MapGenerators.xml */,
+			);
+			path = MapGeneratorDefs;
+			sourceTree = "<group>";
+		};
+		147B26531D41BEB50041260E /* MentalStateDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26541D41BEB50041260E /* MentalStates_Mood.xml */,
+				147B26551D41BEB50041260E /* MentalStates_Special.xml */,
+			);
+			path = MentalStateDefs;
+			sourceTree = "<group>";
+		};
+		147B26561D41BEB50041260E /* NeedDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26571D41BEB50041260E /* Needs.xml */,
+			);
+			path = NeedDefs;
+			sourceTree = "<group>";
+		};
+		147B26581D41BEB50041260E /* PawnCapacityDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26591D41BEB50041260E /* PawnCapacity.xml */,
+			);
+			path = PawnCapacityDefs;
+			sourceTree = "<group>";
+		};
+		147B265A1D41BEB50041260E /* PawnKindDefs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PawnKindDefs;
+			sourceTree = "<group>";
+		};
+		147B265B1D41BEB50041260E /* PawnKindDefs_Humanlikes */ = {
+			isa = PBXGroup;
+			children = (
+				147B265C1D41BEB50041260E /* PawnKinds_Mechanoid.xml */,
+				147B265D1D41BEB50041260E /* PawnKinds_Mercenary.xml */,
+				147B265E1D41BEB50041260E /* PawnKinds_Outlander.xml */,
+				147B265F1D41BEB50041260E /* PawnKinds_Pirate.xml */,
+				147B26601D41BEB50041260E /* PawnKinds_Player.xml */,
+				147B26611D41BEB50041260E /* PawnKinds_Slave.xml */,
+				147B26621D41BEB50041260E /* PawnKinds_Spacer.xml */,
+				147B26631D41BEB50041260E /* PawnKinds_Tribal.xml */,
+			);
+			path = PawnKindDefs_Humanlikes;
+			sourceTree = "<group>";
+		};
+		147B26641D41BEB50041260E /* PawnRelationDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26651D41BEB50041260E /* PawnRelations_FamilyByBlood.xml */,
+				147B26661D41BEB50041260E /* PawnRelations_FamilyByChoice.xml */,
+				147B26671D41BEB50041260E /* PawnRelations_Misc.xml */,
+			);
+			path = PawnRelationDefs;
+			sourceTree = "<group>";
+		};
+		147B26681D41BEB50041260E /* RaidStrategyDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26691D41BEB50041260E /* RaidStrategies.xml */,
+			);
+			path = RaidStrategyDefs;
+			sourceTree = "<group>";
+		};
+		147B266A1D41BEB50041260E /* RecipeDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B266B1D41BEB50041260E /* Recipes_Butchery.xml */,
+				147B266C1D41BEB50041260E /* Recipes_Cremation.xml */,
+				147B266D1D41BEB50041260E /* Recipes_Drugs.xml */,
+				147B266E1D41BEB50041260E /* Recipes_Food.xml */,
+				147B266F1D41BEB50041260E /* Recipes_Meals.xml */,
+				147B26701D41BEB50041260E /* Recipes_Production.xml */,
+				147B26711D41BEB50041260E /* Recipes_Surgery.xml */,
+				147B26721D41BEB50041260E /* Recipes_Surgery_Implants.xml */,
+				147B26731D41BEB50041260E /* Recipes_Surgery_NewParts.xml */,
+			);
+			path = RecipeDefs;
+			sourceTree = "<group>";
+		};
+		147B26741D41BEB50041260E /* RecordDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26751D41BEB50041260E /* Records_Misc.xml */,
+				147B26761D41BEB50041260E /* Records_Time.xml */,
+			);
+			path = RecordDefs;
+			sourceTree = "<group>";
+		};
+		147B26771D41BEB50041260E /* ResearchProjectDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26781D41BEB50041260E /* ResearchProjects_Tier1_Misc.xml */,
+				147B26791D41BEB50041260E /* ResearchProjects_Tier2_Misc.xml */,
+				147B267A1D41BEB50041260E /* ResearchProjects_Tier3_Misc.xml */,
+				147B267B1D41BEB50041260E /* ResearchProjects_Tier4_Misc.xml */,
+				147B267C1D41BEB50041260E /* ResearchProjects_Tier4_Ship.xml */,
+			);
+			path = ResearchProjectDefs;
+			sourceTree = "<group>";
+		};
+		147B267D1D41BEB50041260E /* RoofDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B267E1D41BEB50041260E /* Roofs.xml */,
+			);
+			path = RoofDefs;
+			sourceTree = "<group>";
+		};
+		147B267F1D41BEB50041260E /* RoomRoleDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26801D41BEB50041260E /* RoomRoles.xml */,
+			);
+			path = RoomRoleDefs;
+			sourceTree = "<group>";
+		};
+		147B26811D41BEB50041260E /* RoomStatDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26821D41BEB50041260E /* RoomStats.xml */,
+			);
+			path = RoomStatDefs;
+			sourceTree = "<group>";
+		};
+		147B26831D41BEB50041260E /* RulePackDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26841D41BEB50041260E /* RulePacks_Art_DescriptionRoot.xml */,
+				147B26851D41BEB50041260E /* RulePacks_Art_ImagesTaleless.xml */,
+				147B26861D41BEB50041260E /* RulePacks_Art_NameRoots.xml */,
+				147B26871D41BEB50041260E /* RulePacks_Art_PhysicalDescriptionRoots.xml */,
+				147B26881D41BEB50041260E /* RulePacks_Global.xml */,
+				147B26891D41BEB50041260E /* RulePacks_InteractionsExtra.xml */,
+				147B268A1D41BEB50041260E /* RulePacks_NameMaker_World.xml */,
+				147B268B1D41BEB50041260E /* RulePacks_NameMakers_Animals.xml */,
+				147B268C1D41BEB50041260E /* RulePacks_NameMakers_Factions.xml */,
+				147B268D1D41BEB50041260E /* RulePacks_NameMakers_People.xml */,
+				147B268E1D41BEB50041260E /* RulePacks_NameMakers_Scenarios.xml */,
+				147B268F1D41BEB50041260E /* RulePacks_NameMakers_Traders.xml */,
+				147B26901D41BEB50041260E /* RulePacks_Seeds.xml */,
+			);
+			path = RulePackDefs;
+			sourceTree = "<group>";
+		};
+		147B26911D41BEB50041260E /* ScatterableDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26921D41BEB50041260E /* Scatterables.xml */,
+			);
+			path = ScatterableDefs;
+			sourceTree = "<group>";
+		};
+		147B26931D41BEB50041260E /* ScenarioDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26941D41BEB50041260E /* Scenarios_Classic.xml */,
+				147B26951D41BEB50041260E /* Scenarios_Special.xml */,
+			);
+			path = ScenarioDefs;
+			sourceTree = "<group>";
+		};
+		147B26961D41BEB50041260E /* ScenPartDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26971D41BEB50041260E /* ScenParts_Fixed.xml */,
+				147B26981D41BEB50041260E /* ScenParts_Various.xml */,
+			);
+			path = ScenPartDefs;
+			sourceTree = "<group>";
+		};
+		147B26991D41BEB50041260E /* SkillDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B269A1D41BEB50041260E /* Skills.xml */,
+			);
+			path = SkillDefs;
+			sourceTree = "<group>";
+		};
+		147B269B1D41BEB50041260E /* SongDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B269C1D41BEB50041260E /* Songs_Entry.xml */,
+				147B269D1D41BEB50041260E /* Songs_Gameplay.xml */,
+				147B269E1D41BEB50041260E /* Songs_Misc.xml */,
+				147B269F1D41BEB50041260E /* Songs_Tension.xml */,
+			);
+			path = SongDefs;
+			sourceTree = "<group>";
+		};
+		147B26A01D41BEB50041260E /* SoundDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26A11D41BEB50041260E /* Building_Oneshots_Misc.xml */,
+				147B26A21D41BEB50041260E /* Building_Oneshots_Natural.xml */,
+				147B26A31D41BEB50041260E /* Building_Sustainers_Ambiences.xml */,
+				147B26A41D41BEB50041260E /* Exotic_Oneshots.xml */,
+				147B26A51D41BEB50041260E /* Interact_Oneshots_Melee.xml */,
+				147B26A61D41BEB50041260E /* Interact_Oneshots_Misc.xml */,
+				147B26A71D41BEB50041260E /* Interact_Oneshots_PickupDrop.xml */,
+				147B26A81D41BEB50041260E /* Interact_Oneshots_Violent.xml */,
+				147B26A91D41BEB50041260E /* Interact_Sustainers_Eating.xml */,
+				147B26AA1D41BEB50041260E /* Interact_Sustainers_Work.xml */,
+				147B26AB1D41BEB50041260E /* Pawn_Animal_Domestic_Vox.xml */,
+				147B26AC1D41BEB50041260E /* Pawn_Animal_Insect_Vox.xml */,
+				147B26AD1D41BEB50041260E /* Pawn_Animal_Misc_Vox.xml */,
+				147B26AE1D41BEB50041260E /* Pawn_Mech_Vox.xml */,
+				147B26AF1D41BEB50041260E /* UI_Oneshots_ClockControls.xml */,
+				147B26B01D41BEB50041260E /* UI_Oneshots_Designation.xml */,
+				147B26B11D41BEB50041260E /* UI_Oneshots_Misc.xml */,
+				147B26B21D41BEB50041260E /* UI_Sustainers_Designation.xml */,
+				147B26B31D41BEB50041260E /* UI_Sustainers_Trade.xml */,
+				147B26B41D41BEB50041260E /* World_Oneshots_Doors.xml */,
+				147B26B51D41BEB50041260E /* World_Oneshots_Explosions.xml */,
+				147B26B61D41BEB50041260E /* World_Oneshots_GunTurret.xml */,
+				147B26B71D41BEB50041260E /* World_Oneshots_Misc.xml */,
+				147B26B81D41BEB50041260E /* World_Oneshots_Mortars.xml */,
+				147B26B91D41BEB50041260E /* World_Oneshots_ProjectileImpacts.xml */,
+				147B26BA1D41BEB50041260E /* World_Oneshots_Tails.xml */,
+				147B26BB1D41BEB50041260E /* World_Oneshots_Weapons.xml */,
+				147B26BC1D41BEB50041260E /* World_Sustainers_Ambiences.xml */,
+				147B26BD1D41BEB50041260E /* World_Sustainers_Misc.xml */,
+			);
+			path = SoundDefs;
+			sourceTree = "<group>";
+		};
+		147B26BE1D41BEB50041260E /* SpecialThingFilterDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26BF1D41BEB50041260E /* SpecialThingFilters.xml */,
+			);
+			path = SpecialThingFilterDefs;
+			sourceTree = "<group>";
+		};
+		147B26C01D41BEB50041260E /* StatCategoryDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26C11D41BEB50041260E /* StatCategories.xml */,
+			);
+			path = StatCategoryDefs;
+			sourceTree = "<group>";
+		};
+		147B26C21D41BEB50041260E /* StatDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26C31D41BEB50041260E /* Stats_Apparel.xml */,
+				147B26C41D41BEB50041260E /* Stats_Basics_General.xml */,
+				147B26C51D41BEB50041260E /* Stats_Basics_Special.xml */,
+				147B26C61D41BEB50041260E /* Stats_Building_Special.xml */,
+				147B26C71D41BEB50041260E /* Stats_Pawns_Combat.xml */,
+				147B26C81D41BEB50041260E /* Stats_Pawns_General.xml */,
+				147B26C91D41BEB50041260E /* Stats_Pawns_Social.xml */,
+				147B26CA1D41BEB50041260E /* Stats_Pawns_WorkGeneral.xml */,
+				147B26CB1D41BEB50041260E /* Stats_Pawns_WorkMedical.xml */,
+				147B26CC1D41BEB50041260E /* Stats_Pawns_WorkRecipes.xml */,
+				147B26CD1D41BEB50041260E /* Stats_Weapons_Melee.xml */,
+				147B26CE1D41BEB50041260E /* Stats_Weapons_Ranged.xml */,
+			);
+			path = StatDefs;
+			sourceTree = "<group>";
+		};
+		147B26CF1D41BEB50041260E /* StorytellerDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26D01D41BEB50041260E /* Storytellers.xml */,
+			);
+			path = StorytellerDefs;
+			sourceTree = "<group>";
+		};
+		147B26D11D41BEB50041260E /* StuffCategoryDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26D21D41BEB50041260E /* StuffCategories.xml */,
+			);
+			path = StuffCategoryDefs;
+			sourceTree = "<group>";
+		};
+		147B26D31D41BEB50041260E /* StuffDefs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StuffDefs;
+			sourceTree = "<group>";
+		};
+		147B26D41D41BEB50041260E /* TaleDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26D51D41BEB50041260E /* Tales_DoublePawn.xml */,
+				147B26D61D41BEB50041260E /* Tales_DoublePawn_Relationships.xml */,
+				147B26D71D41BEB50041260E /* Tales_NoPawn.xml */,
+				147B26D81D41BEB50041260E /* Tales_SinglePawn.xml */,
+			);
+			path = TaleDefs;
+			sourceTree = "<group>";
+		};
+		147B26D91D41BEB50041260E /* TerrainDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26DA1D41BEB50041260E /* Terrain_Floors.xml */,
+				147B26DB1D41BEB50041260E /* Terrain_FloorsStoneTile.xml */,
+				147B26DC1D41BEB50041260E /* Terrain_Natural.xml */,
+				147B26DD1D41BEB50041260E /* Terrain_Special.xml */,
+				147B26DE1D41BEB50041260E /* Terrain_Water.xml */,
+			);
+			path = TerrainDefs;
+			sourceTree = "<group>";
+		};
+		147B26DF1D41BEB50041260E /* ThingCategoryDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B26E01D41BEB50041260E /* ThingCategories.xml */,
+			);
+			path = ThingCategoryDefs;
+			sourceTree = "<group>";
+		};
+		147B26E11D41BEB50041260E /* ThingDefs_Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				147B26E21D41BEB50041260E /* Buildings_Art.xml */,
+				147B26E31D41BEB50041260E /* Buildings_Exotic.xml */,
+				147B26E41D41BEB50041260E /* Buildings_Furniture.xml */,
+				147B26E51D41BEB50041260E /* Buildings_Joy.xml */,
+				147B26E61D41BEB50041260E /* Buildings_Misc.xml */,
+				147B26E71D41BEB50041260E /* Buildings_Natural.xml */,
+				147B26E81D41BEB50041260E /* Buildings_Power.xml */,
+				147B26E91D41BEB50041260E /* Buildings_Power_WindTurbine.xml */,
+				147B26EA1D41BEB50041260E /* Buildings_Production.xml */,
+				147B26EB1D41BEB50041260E /* Buildings_Security.xml */,
+				147B26EC1D41BEB50041260E /* Buildings_Ship.xml */,
+				147B26ED1D41BEB50041260E /* Buildings_Structure.xml */,
+				147B26EE1D41BEB50041260E /* Buildings_Temperature.xml */,
+			);
+			path = ThingDefs_Buildings;
+			sourceTree = "<group>";
+		};
+		147B26EF1D41BEB50041260E /* ThingDefs_Items */ = {
+			isa = PBXGroup;
+			children = (
+				147B26F01D41BEB50041260E /* Items_Artifacts.xml */,
+				147B26F11D41BEB50041260E /* Items_BodyParts.xml */,
+				147B26F21D41BEB50041260E /* Items_Exotic.xml */,
+				147B26F31D41BEB50041260E /* Items_Food.xml */,
+				147B26F41D41BEB50041260E /* Items_Implants.xml */,
+				147B26F51D41BEB50041260E /* Items_Luxury.xml */,
+				147B26F61D41BEB50041260E /* Items_Resource_AnimalProduct.xml */,
+				147B26F71D41BEB50041260E /* Items_Resource_Manufactured.xml */,
+				147B26F81D41BEB50041260E /* Items_Resource_RawPlant.xml */,
+				147B26F91D41BEB50041260E /* Items_Resource_Stuff.xml */,
+				147B26FA1D41BEB50041260E /* Items_Unfinished.xml */,
+			);
+			path = ThingDefs_Items;
+			sourceTree = "<group>";
+		};
+		147B26FB1D41BEB50041260E /* ThingDefs_Misc */ = {
+			isa = PBXGroup;
+			children = (
+				147B26FC1D41BEB50041260E /* Apparel_Hats.xml */,
+				147B26FD1D41BEB50041260E /* Apparel_Shield.xml */,
+				147B26FE1D41BEB50041260E /* Apparel_Various.xml */,
+				147B26FF1D41BEB50041260E /* Filth_Various.xml */,
+				147B27001D41BEB50041260E /* Motes.xml */,
+				147B27011D41BEB50041260E /* Things_Special.xml */,
+				147B27021D41BEB50041260E /* Various_Stone.xml */,
+				147B27031D41BEB50041260E /* Weapons_Artillery.xml */,
+				147B27041D41BEB50041260E /* Weapons_Grenades.xml */,
+				147B27051D41BEB50041260E /* Weapons_Guns.xml */,
+				147B27061D41BEB50041260E /* Weapons_Melee.xml */,
+				147B27071D41BEB50041260E /* Weapons_RangedNeolithic.xml */,
+			);
+			path = ThingDefs_Misc;
+			sourceTree = "<group>";
+		};
+		147B27081D41BEB50041260E /* ThingDefs_Plants */ = {
+			isa = PBXGroup;
+			children = (
+				147B27091D41BEB50041260E /* Plants_Bases.xml */,
+				147B270A1D41BEB50041260E /* Plants_Cultivated_Decorative.xml */,
+				147B270B1D41BEB50041260E /* Plants_Cultivated_Farm.xml */,
+				147B270C1D41BEB50041260E /* Plants_Wild_Arid.xml */,
+				147B270D1D41BEB50041260E /* Plants_Wild_Temperate.xml */,
+				147B270E1D41BEB50041260E /* Plants_Wild_Tropical.xml */,
+			);
+			path = ThingDefs_Plants;
+			sourceTree = "<group>";
+		};
+		147B270F1D41BEB50041260E /* ThingDefs_Races */ = {
+			isa = PBXGroup;
+			children = (
+				147B27101D41BEB50041260E /* Races_Animal_Arid.xml */,
+				147B27111D41BEB50041260E /* Races_Animal_Base.xml */,
+				147B27121D41BEB50041260E /* Races_Animal_Bears.xml */,
+				147B27131D41BEB50041260E /* Races_Animal_BigCats.xml */,
+				147B27141D41BEB50041260E /* Races_Animal_Birds.xml */,
+				147B27151D41BEB50041260E /* Races_Animal_Farm.xml */,
+				147B27161D41BEB50041260E /* Races_Animal_Giant.xml */,
+				147B27171D41BEB50041260E /* Races_Animal_Hares.xml */,
+				147B27181D41BEB50041260E /* Races_Animal_Insect.xml */,
+				147B27191D41BEB50041260E /* Races_Animal_Pet.xml */,
+				147B271A1D41BEB50041260E /* Races_Animal_Rodentlike.xml */,
+				147B271B1D41BEB50041260E /* Races_Animal_Temperate.xml */,
+				147B271C1D41BEB50041260E /* Races_Animal_Tropical.xml */,
+				147B271D1D41BEB50041260E /* Races_Animal_WildCanines.xml */,
+				147B271E1D41BEB50041260E /* Races_Humanlike.xml */,
+				147B271F1D41BEB50041260E /* Races_Mechanoid.xml */,
+			);
+			path = ThingDefs_Races;
+			sourceTree = "<group>";
+		};
+		147B27201D41BEB50041260E /* ThinkTreeDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27211D41BEB50041260E /* Animal.xml */,
+				147B27221D41BEB50041260E /* Humanlike.xml */,
+				147B27231D41BEB50041260E /* Mechanoid.xml */,
+				147B27241D41BEB50041260E /* SubTrees_Duty.xml */,
+				147B27251D41BEB50041260E /* SubTrees_Misc.xml */,
+			);
+			path = ThinkTreeDefs;
+			sourceTree = "<group>";
+		};
+		147B27261D41BEB50041260E /* ThoughtDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27271D41BEB50041260E /* Thoughts_Exotic.xml */,
+				147B27281D41BEB50041260E /* Thoughts_Memory_Death.xml */,
+				147B27291D41BEB50041260E /* Thoughts_Memory_Debug.xml */,
+				147B272A1D41BEB50041260E /* Thoughts_Memory_Eating.xml */,
+				147B272B1D41BEB50041260E /* Thoughts_Memory_Gatherings.xml */,
+				147B272C1D41BEB50041260E /* Thoughts_Memory_Misc.xml */,
+				147B272D1D41BEB50041260E /* Thoughts_Memory_Social.xml */,
+				147B272E1D41BEB50041260E /* Thoughts_Random.xml */,
+				147B272F1D41BEB50041260E /* Thoughts_Situation_Drugs.xml */,
+				147B27301D41BEB50041260E /* Thoughts_Situation_General.xml */,
+				147B27311D41BEB50041260E /* Thoughts_Situation_MentalState.xml */,
+				147B27321D41BEB50041260E /* Thoughts_Situation_Needs.xml */,
+				147B27331D41BEB50041260E /* Thoughts_Situation_RoomStats.xml */,
+				147B27341D41BEB50041260E /* Thoughts_Situation_Social.xml */,
+				147B27351D41BEB50041260E /* Thoughts_Situation_Special.xml */,
+				147B27361D41BEB50041260E /* Thoughts_Situation_Traits.xml */,
+				147B27371D41BEB50041260E /* Thoughts_Situation_TraitsPerm.xml */,
+			);
+			path = ThoughtDefs;
+			sourceTree = "<group>";
+		};
+		147B27381D41BEB50041260E /* TimeAssignmentDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27391D41BEB50041260E /* TimeAssignments.xml */,
+			);
+			path = TimeAssignmentDefs;
+			sourceTree = "<group>";
+		};
+		147B273A1D41BEB50041260E /* TradeDialogSorterDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B273B1D41BEB50041260E /* TradeDialogSorters.xml */,
+			);
+			path = TradeDialogSorterDefs;
+			sourceTree = "<group>";
+		};
+		147B273C1D41BEB50041260E /* TraderKindDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B273D1D41BEB50041260E /* TraderKinds_Caravan_Neolithic.xml */,
+				147B273E1D41BEB50041260E /* TraderKinds_Caravan_Outlander.xml */,
+				147B273F1D41BEB50041260E /* TraderKinds_Orbital_Misc.xml */,
+				147B27401D41BEB50041260E /* TraderKinds_Visitor_Neolithic.xml */,
+				147B27411D41BEB50041260E /* TraderKinds_Visitor_Outlander.xml */,
+			);
+			path = TraderKindDefs;
+			sourceTree = "<group>";
+		};
+		147B27421D41BEB50041260E /* TrainableDef */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TrainableDef;
+			sourceTree = "<group>";
+		};
+		147B27431D41BEB50041260E /* TrainableDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27441D41BEB50041260E /* Trainables.xml */,
+			);
+			path = TrainableDefs;
+			sourceTree = "<group>";
+		};
+		147B27451D41BEB50041260E /* TraitDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27461D41BEB50041260E /* Traits_Singular.xml */,
+				147B27471D41BEB50041260E /* Traits_Spectrum.xml */,
+			);
+			path = TraitDefs;
+			sourceTree = "<group>";
+		};
+		147B27481D41BEB50041260E /* WeatherDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B27491D41BEB50041260E /* Weathers.xml */,
+			);
+			path = WeatherDefs;
+			sourceTree = "<group>";
+		};
+		147B274A1D41BEB50041260E /* WorkGiverDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B274B1D41BEB50041260E /* WorkGivers.xml */,
+			);
+			path = WorkGiverDefs;
+			sourceTree = "<group>";
+		};
+		147B274C1D41BEB50041260E /* WorkTypeDefs */ = {
+			isa = PBXGroup;
+			children = (
+				147B274D1D41BEB50041260E /* WorkTypes.xml */,
+			);
+			path = WorkTypeDefs;
 			sourceTree = "<group>";
 		};
 		489FBC990A6453E07A1DB651 /* Frameworks */ = {
@@ -157,8 +1646,291 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147B41A11D41BEBC0041260E /* Terrain_Natural.xml in Resources */,
+				147B40F21D41BEBC0041260E /* BodyParts_Animal.xml in Resources */,
+				147B41591D41BEBC0041260E /* RulePacks_Art_NameRoots.xml in Resources */,
+				147B41CC1D41BEBC0041260E /* Plants_Wild_Arid.xml in Resources */,
+				147B412F1D41BEBC0041260E /* KeyBindings.xml in Resources */,
+				147B415B1D41BEBC0041260E /* RulePacks_Global.xml in Resources */,
+				147B412E1D41BEBC0041260E /* KeyBindingCategories.xml in Resources */,
+				147B413D1D41BEBC0041260E /* PawnKinds_Slave.xml in Resources */,
+				147B40F41D41BEBC0041260E /* BodyParts_Humanoid.xml in Resources */,
+				147B41A51D41BEBC0041260E /* Buildings_Art.xml in Resources */,
+				147B411F1D41BEBC0041260E /* Incidents_ThreatsSmall.xml in Resources */,
+				147B41111D41BEBC0041260E /* Hediffs_Global_Misc.xml in Resources */,
+				147B41B91D41BEBC0041260E /* Items_Resource_Manufactured.xml in Resources */,
+				147B41721D41BEBC0041260E /* Interact_Oneshots_Melee.xml in Resources */,
+				147B410C1D41BEBC0041260E /* Factions_Misc.xml in Resources */,
+				147B41FE1D41BEBC0041260E /* Traits_Spectrum.xml in Resources */,
+				147B41E31D41BEBC0041260E /* SubTrees_Misc.xml in Resources */,
+				147B41D91D41BEBC0041260E /* Races_Animal_Rodentlike.xml in Resources */,
+				147B41011D41BEBC0041260E /* Difficulties.xml in Resources */,
+				147B41D11D41BEBC0041260E /* Races_Animal_Bears.xml in Resources */,
+				147B414C1D41BEBC0041260E /* Recipes_Surgery_NewParts.xml in Resources */,
+				147B41C91D41BEBC0041260E /* Plants_Bases.xml in Resources */,
+				147B41A61D41BEBC0041260E /* Buildings_Exotic.xml in Resources */,
+				147B41F01D41BEBC0041260E /* Thoughts_Situation_RoomStats.xml in Resources */,
+				147B41B81D41BEBC0041260E /* Items_Resource_AnimalProduct.xml in Resources */,
+				147B41731D41BEBC0041260E /* Interact_Oneshots_Misc.xml in Resources */,
+				147B41F61D41BEBC0041260E /* TradeDialogSorters.xml in Resources */,
+				147B41401D41BEBC0041260E /* PawnRelations_FamilyByBlood.xml in Resources */,
+				147B41C21D41BEBC0041260E /* Things_Special.xml in Resources */,
+				147B41821D41BEBC0041260E /* World_Oneshots_Explosions.xml in Resources */,
+				147B41071D41BEBC0041260E /* Effecters_Misc.xml in Resources */,
+				147B40EB1D41BEBC0041260E /* Biomes_Moderate.xml in Resources */,
+				147B41481D41BEBC0041260E /* Recipes_Meals.xml in Resources */,
+				147B416E1D41BEBC0041260E /* Building_Oneshots_Misc.xml in Resources */,
+				147B413E1D41BEBC0041260E /* PawnKinds_Spacer.xml in Resources */,
+				147B41051D41BEBC0041260E /* Effecters_Damage.xml in Resources */,
+				147B40F71D41BEBC0041260E /* BodyPartGroups.xml in Resources */,
+				147B41651D41BEBC0041260E /* Scenarios_Classic.xml in Resources */,
+				147B41AF1D41BEBC0041260E /* Buildings_Ship.xml in Resources */,
+				147B41EC1D41BEBC0041260E /* Thoughts_Situation_Drugs.xml in Resources */,
+				147B41891D41BEBC0041260E /* World_Sustainers_Ambiences.xml in Resources */,
+				147B41461D41BEBC0041260E /* Recipes_Drugs.xml in Resources */,
+				147B41A21D41BEBC0041260E /* Terrain_Special.xml in Resources */,
+				147B41421D41BEBC0041260E /* PawnRelations_Misc.xml in Resources */,
+				147B42001D41BEBC0041260E /* WorkGivers.xml in Resources */,
+				147B41791D41BEBC0041260E /* Pawn_Animal_Insect_Vox.xml in Resources */,
+				147B41511D41BEBC0041260E /* ResearchProjects_Tier3_Misc.xml in Resources */,
+				147B41F21D41BEBC0041260E /* Thoughts_Situation_Special.xml in Resources */,
+				147B41801D41BEBC0041260E /* UI_Sustainers_Trade.xml in Resources */,
+				147B41931D41BEBC0041260E /* Stats_Pawns_Social.xml in Resources */,
+				147B411B1D41BEBC0041260E /* HistoryAutoRecorders.xml in Resources */,
+				147B41861D41BEBC0041260E /* World_Oneshots_ProjectileImpacts.xml in Resources */,
+				147B418F1D41BEBC0041260E /* Stats_Basics_Special.xml in Resources */,
+				147B41571D41BEBC0041260E /* RulePacks_Art_DescriptionRoot.xml in Resources */,
+				147B41141D41BEBC0041260E /* Hediffs_Local_AddedParts.xml in Resources */,
+				147B410D1D41BEBC0041260E /* Factions_Player.xml in Resources */,
+				147B41711D41BEBC0041260E /* Exotic_Oneshots.xml in Resources */,
+				147B40EE1D41BEBC0041260E /* Bodies_Animal_Quadruped.xml in Resources */,
+				147B41D21D41BEBC0041260E /* Races_Animal_BigCats.xml in Resources */,
+				147B41B41D41BEBC0041260E /* Items_Exotic.xml in Resources */,
+				147B41241D41BEBC0041260E /* Interactions_Directed.xml in Resources */,
+				147B40F61D41BEBC0041260E /* BodyParts_Organs.xml in Resources */,
+				147B41501D41BEBC0041260E /* ResearchProjects_Tier2_Misc.xml in Resources */,
+				147B41901D41BEBC0041260E /* Stats_Building_Special.xml in Resources */,
+				147B41621D41BEBC0041260E /* RulePacks_NameMakers_Traders.xml in Resources */,
+				147B41F51D41BEBC0041260E /* TimeAssignments.xml in Resources */,
+				147B41191D41BEBC0041260E /* Hediffs_Local_Misc.xml in Resources */,
+				147B41F31D41BEBC0041260E /* Thoughts_Situation_Traits.xml in Resources */,
+				147B41331D41BEBC0041260E /* MapGenerators.xml in Resources */,
+				147B417D1D41BEBC0041260E /* UI_Oneshots_Designation.xml in Resources */,
+				147B41AD1D41BEBC0041260E /* Buildings_Production.xml in Resources */,
+				147B416B1D41BEBC0041260E /* Songs_Gameplay.xml in Resources */,
+				147B41101D41BEBC0041260E /* Hediffs_Global_Execution.xml in Resources */,
+				147B41941D41BEBC0041260E /* Stats_Pawns_WorkGeneral.xml in Resources */,
+				147B41991D41BEBC0041260E /* Storytellers.xml in Resources */,
+				147B40E81D41BEBC0041260E /* Preview.png in Resources */,
+				147B41AE1D41BEBC0041260E /* Buildings_Security.xml in Resources */,
+				147B41351D41BEBC0041260E /* MentalStates_Special.xml in Resources */,
+				147B41ED1D41BEBC0041260E /* Thoughts_Situation_General.xml in Resources */,
+				147B417C1D41BEBC0041260E /* UI_Oneshots_ClockControls.xml in Resources */,
+				147B40F81D41BEBC0041260E /* Concepts_Alerts.xml in Resources */,
+				147B41DB1D41BEBC0041260E /* Races_Animal_Tropical.xml in Resources */,
+				147B41B21D41BEBC0041260E /* Items_Artifacts.xml in Resources */,
+				147B41541D41BEBC0041260E /* Roofs.xml in Resources */,
+				147B414F1D41BEBC0041260E /* ResearchProjects_Tier1_Misc.xml in Resources */,
+				147B419B1D41BEBC0041260E /* Tales_DoublePawn.xml in Resources */,
+				147B41F91D41BEBC0041260E /* TraderKinds_Orbital_Misc.xml in Resources */,
+				147B41341D41BEBC0041260E /* MentalStates_Mood.xml in Resources */,
+				147B41231D41BEBC0041260E /* Interactions_Animal.xml in Resources */,
+				147B41B11D41BEBC0041260E /* Buildings_Temperature.xml in Resources */,
+				147B41471D41BEBC0041260E /* Recipes_Food.xml in Resources */,
+				147B41811D41BEBC0041260E /* World_Oneshots_Doors.xml in Resources */,
+				147B41831D41BEBC0041260E /* World_Oneshots_GunTurret.xml in Resources */,
+				147B41261D41BEBC0041260E /* Interactions_Social.xml in Resources */,
+				147B41851D41BEBC0041260E /* World_Oneshots_Mortars.xml in Resources */,
+				147B40F31D41BEBC0041260E /* BodyParts_General.xml in Resources */,
+				147B40FA1D41BEBC0041260E /* Concepts_Noted.xml in Resources */,
+				147B414D1D41BEBC0041260E /* Records_Misc.xml in Resources */,
+				147B41841D41BEBC0041260E /* World_Oneshots_Misc.xml in Resources */,
+				147B41411D41BEBC0041260E /* PawnRelations_FamilyByChoice.xml in Resources */,
+				147B41CA1D41BEBC0041260E /* Plants_Cultivated_Decorative.xml in Resources */,
+				147B41E91D41BEBC0041260E /* Thoughts_Memory_Misc.xml in Resources */,
+				147B41871D41BEBC0041260E /* World_Oneshots_Tails.xml in Resources */,
+				147B418E1D41BEBC0041260E /* Stats_Basics_General.xml in Resources */,
+				147B41971D41BEBC0041260E /* Stats_Weapons_Melee.xml in Resources */,
+				147B40EF1D41BEBC0041260E /* Bodies_Animal_Snake.xml in Resources */,
+				147B41441D41BEBC0041260E /* Recipes_Butchery.xml in Resources */,
+				147B418C1D41BEBC0041260E /* StatCategories.xml in Resources */,
+				147B41EF1D41BEBC0041260E /* Thoughts_Situation_Needs.xml in Resources */,
+				147B41771D41BEBC0041260E /* Interact_Sustainers_Work.xml in Resources */,
+				147B41CB1D41BEBC0041260E /* Plants_Cultivated_Farm.xml in Resources */,
+				147B41BC1D41BEBC0041260E /* Items_Unfinished.xml in Resources */,
+				147B41FD1D41BEBC0041260E /* Traits_Singular.xml in Resources */,
+				147B41121D41BEBC0041260E /* Hediffs_Global_Needs.xml in Resources */,
+				147B41B31D41BEBC0041260E /* Items_BodyParts.xml in Resources */,
+				147B415A1D41BEBC0041260E /* RulePacks_Art_PhysicalDescriptionRoots.xml in Resources */,
+				147B41E11D41BEBC0041260E /* Mechanoid.xml in Resources */,
+				147B41031D41BEBC0041260E /* Duties_Misc.xml in Resources */,
+				147B41081D41BEBC0041260E /* Effecters_PawnStates.xml in Resources */,
+				147B41D81D41BEBC0041260E /* Races_Animal_Pet.xml in Resources */,
+				147B41251D41BEBC0041260E /* Interactions_Romance.xml in Resources */,
+				147B41431D41BEBC0041260E /* RaidStrategies.xml in Resources */,
+				147B41D41D41BEBC0041260E /* Races_Animal_Farm.xml in Resources */,
+				147B415D1D41BEBC0041260E /* RulePacks_NameMaker_World.xml in Resources */,
+				147B41C11D41BEBC0041260E /* Motes.xml in Resources */,
+				147B417E1D41BEBC0041260E /* UI_Oneshots_Misc.xml in Resources */,
+				147B41631D41BEBC0041260E /* RulePacks_Seeds.xml in Resources */,
+				147B41A01D41BEBC0041260E /* Terrain_FloorsStoneTile.xml in Resources */,
+				147B412A1D41BEBC0041260E /* Jobs_Misc.xml in Resources */,
+				147B41EE1D41BEBC0041260E /* Thoughts_Situation_MentalState.xml in Resources */,
+				147B41671D41BEBC0041260E /* ScenParts_Fixed.xml in Resources */,
+				147B41D51D41BEBC0041260E /* Races_Animal_Giant.xml in Resources */,
+				147B41AA1D41BEBC0041260E /* Buildings_Natural.xml in Resources */,
+				147B41301D41BEBC0041260E /* LifeStages.xml in Resources */,
+				147B41EA1D41BEBC0041260E /* Thoughts_Memory_Social.xml in Resources */,
+				147B41381D41BEBC0041260E /* PawnKinds_Mechanoid.xml in Resources */,
+				147B41211D41BEBC0041260E /* Incidents_Various_Good.xml in Resources */,
+				147B413F1D41BEBC0041260E /* PawnKinds_Tribal.xml in Resources */,
+				147B41661D41BEBC0041260E /* Scenarios_Special.xml in Resources */,
+				147B413C1D41BEBC0041260E /* PawnKinds_Player.xml in Resources */,
+				147B41321D41BEBC0041260E /* MapConditions_Misc.xml in Resources */,
+				147B41D71D41BEBC0041260E /* Races_Animal_Insect.xml in Resources */,
+				147B41681D41BEBC0041260E /* ScenParts_Various.xml in Resources */,
+				147B41FB1D41BEBC0041260E /* TraderKinds_Visitor_Outlander.xml in Resources */,
+				147B418A1D41BEBC0041260E /* World_Sustainers_Misc.xml in Resources */,
+				147B40FC1D41BEBC0041260E /* Damages_Healing.xml in Resources */,
+				147B417F1D41BEBC0041260E /* UI_Sustainers_Designation.xml in Resources */,
+				147B41561D41BEBC0041260E /* RoomStats.xml in Resources */,
+				147B418B1D41BEBC0041260E /* SpecialThingFilters.xml in Resources */,
+				147B41B61D41BEBC0041260E /* Items_Implants.xml in Resources */,
+				147B41E51D41BEBC0041260E /* Thoughts_Memory_Death.xml in Resources */,
+				147B41131D41BEBC0041260E /* Hediffs_Global_Temperature.xml in Resources */,
+				147B41C51D41BEBC0041260E /* Weapons_Grenades.xml in Resources */,
+				147B41181D41BEBC0041260E /* Hediffs_Local_Injuries.xml in Resources */,
+				147B41BE1D41BEBC0041260E /* Apparel_Shield.xml in Resources */,
+				147B41A71D41BEBC0041260E /* Buildings_Furniture.xml in Resources */,
+				147B415E1D41BEBC0041260E /* RulePacks_NameMakers_Animals.xml in Resources */,
+				147B41F71D41BEBC0041260E /* TraderKinds_Caravan_Neolithic.xml in Resources */,
+				147B41311D41BEBC0041260E /* MainTabs.xml in Resources */,
+				147B41451D41BEBC0041260E /* Recipes_Cremation.xml in Resources */,
+				147B41221D41BEBC0041260E /* Incidents_Various_Neutral.xml in Resources */,
+				147B41611D41BEBC0041260E /* RulePacks_NameMakers_Scenarios.xml in Resources */,
+				147B40FE1D41BEBC0041260E /* Damages_Misc.xml in Resources */,
+				147B411E1D41BEBC0041260E /* Incidents_ThreatsBig.xml in Resources */,
+				147B413B1D41BEBC0041260E /* PawnKinds_Pirate.xml in Resources */,
+				147B41291D41BEBC0041260E /* Jobs_Joy.xml in Resources */,
+				147B41741D41BEBC0041260E /* Interact_Oneshots_PickupDrop.xml in Resources */,
+				147B416C1D41BEBC0041260E /* Songs_Misc.xml in Resources */,
+				147B42011D41BEBC0041260E /* WorkTypes.xml in Resources */,
+				147B419F1D41BEBC0041260E /* Terrain_Floors.xml in Resources */,
+				147B41C41D41BEBC0041260E /* Weapons_Artillery.xml in Resources */,
+				147B41C81D41BEBC0041260E /* Weapons_RangedNeolithic.xml in Resources */,
+				147B414E1D41BEBC0041260E /* Records_Time.xml in Resources */,
+				147B41A31D41BEBC0041260E /* Terrain_Water.xml in Resources */,
+				147B41B01D41BEBC0041260E /* Buildings_Structure.xml in Resources */,
+				147B41061D41BEBC0041260E /* Effecters_Eat.xml in Resources */,
+				147B41491D41BEBC0041260E /* Recipes_Production.xml in Resources */,
+				147B41BB1D41BEBC0041260E /* Items_Resource_Stuff.xml in Resources */,
+				147B41201D41BEBC0041260E /* Incidents_Various_Bad.xml in Resources */,
+				147B419C1D41BEBC0041260E /* Tales_DoublePawn_Relationships.xml in Resources */,
+				147B40F51D41BEBC0041260E /* BodyParts_Mechanoid.xml in Resources */,
+				147B417A1D41BEBC0041260E /* Pawn_Animal_Misc_Vox.xml in Resources */,
+				147B41FC1D41BEBC0041260E /* Trainables.xml in Resources */,
+				147B41981D41BEBC0041260E /* Stats_Weapons_Ranged.xml in Resources */,
+				147B41161D41BEBC0041260E /* Hediffs_Local_Implants.xml in Resources */,
+				147B40F11D41BEBC0041260E /* Bodies_Mechanoid.xml in Resources */,
+				147B41C71D41BEBC0041260E /* Weapons_Melee.xml in Resources */,
+				147B40FD1D41BEBC0041260E /* Damages_LocalInjury.xml in Resources */,
+				147B410B1D41BEBC0041260E /* Factions_Hidden.xml in Resources */,
+				147B40E91D41BEBC0041260E /* Biomes_Arid.xml in Resources */,
+				147B41391D41BEBC0041260E /* PawnKinds_Mercenary.xml in Resources */,
+				147B41E71D41BEBC0041260E /* Thoughts_Memory_Eating.xml in Resources */,
+				147B412C1D41BEBC0041260E /* JoyGivers.xml in Resources */,
+				147B40E71D41BEBC0041260E /* About.xml in Resources */,
+				147B40F91D41BEBC0041260E /* Concepts_Entry.xml in Resources */,
+				147B415C1D41BEBC0041260E /* RulePacks_InteractionsExtra.xml in Resources */,
+				147B41EB1D41BEBC0041260E /* Thoughts_Random.xml in Resources */,
+				147B41CF1D41BEBC0041260E /* Races_Animal_Arid.xml in Resources */,
+				147B411A1D41BEBC0041260E /* HediffGiverSets.xml in Resources */,
+				147B41A91D41BEBC0041260E /* Buildings_Misc.xml in Resources */,
+				147B41AB1D41BEBC0041260E /* Buildings_Power.xml in Resources */,
+				147B41E41D41BEBC0041260E /* Thoughts_Exotic.xml in Resources */,
+				147B41961D41BEBC0041260E /* Stats_Pawns_WorkRecipes.xml in Resources */,
+				147B41DD1D41BEBC0041260E /* Races_Humanlike.xml in Resources */,
+				147B41761D41BEBC0041260E /* Interact_Sustainers_Eating.xml in Resources */,
+				147B414A1D41BEBC0041260E /* Recipes_Surgery.xml in Resources */,
+				147B41001D41BEBC0041260E /* Designations.xml in Resources */,
+				147B41361D41BEBC0041260E /* Needs.xml in Resources */,
+				147B41F81D41BEBC0041260E /* TraderKinds_Caravan_Outlander.xml in Resources */,
+				147B41AC1D41BEBC0041260E /* Buildings_Power_WindTurbine.xml in Resources */,
+				147B41FA1D41BEBC0041260E /* TraderKinds_Visitor_Neolithic.xml in Resources */,
+				147B40F01D41BEBC0041260E /* Bodies_Humanlike.xml in Resources */,
+				147B41521D41BEBC0041260E /* ResearchProjects_Tier4_Misc.xml in Resources */,
+				147B41E61D41BEBC0041260E /* Thoughts_Memory_Debug.xml in Resources */,
+				147B416F1D41BEBC0041260E /* Building_Oneshots_Natural.xml in Resources */,
+				147B41D61D41BEBC0041260E /* Races_Animal_Hares.xml in Resources */,
+				147B41A41D41BEBC0041260E /* ThingCategories.xml in Resources */,
+				147B418D1D41BEBC0041260E /* Stats_Apparel.xml in Resources */,
+				147B41531D41BEBC0041260E /* ResearchProjects_Tier4_Ship.xml in Resources */,
+				147B41C61D41BEBC0041260E /* Weapons_Guns.xml in Resources */,
+				147B40ED1D41BEBC0041260E /* Bodies_Animal_Insect.xml in Resources */,
+				147B41E21D41BEBC0041260E /* SubTrees_Duty.xml in Resources */,
+				147B41921D41BEBC0041260E /* Stats_Pawns_General.xml in Resources */,
+				147B41A81D41BEBC0041260E /* Buildings_Joy.xml in Resources */,
+				147B40FF1D41BEBC0041260E /* DesignationCategories.xml in Resources */,
+				147B41271D41BEBC0041260E /* Jobs_Animal.xml in Resources */,
+				147B41601D41BEBC0041260E /* RulePacks_NameMakers_People.xml in Resources */,
+				147B414B1D41BEBC0041260E /* Recipes_Surgery_Implants.xml in Resources */,
+				147B41F11D41BEBC0041260E /* Thoughts_Situation_Social.xml in Resources */,
+				147B41CD1D41BEBC0041260E /* Plants_Wild_Temperate.xml in Resources */,
+				147B41701D41BEBC0041260E /* Building_Sustainers_Ambiences.xml in Resources */,
+				147B41371D41BEBC0041260E /* PawnCapacity.xml in Resources */,
+				147B40EC1D41BEBC0041260E /* Bodies_Animal_Bird.xml in Resources */,
+				147B41B51D41BEBC0041260E /* Items_Food.xml in Resources */,
+				147B419D1D41BEBC0041260E /* Tales_NoPawn.xml in Resources */,
+				147B41091D41BEBC0041260E /* Effecters_Recipes.xml in Resources */,
+				147B410E1D41BEBC0041260E /* HairsGeneral.xml in Resources */,
+				147B41751D41BEBC0041260E /* Interact_Oneshots_Violent.xml in Resources */,
+				147B41641D41BEBC0041260E /* Scatterables.xml in Resources */,
+				147B412D1D41BEBC0041260E /* JoyKinds.xml in Resources */,
+				147B41691D41BEBC0041260E /* Skills.xml in Resources */,
+				147B41DE1D41BEBC0041260E /* Races_Mechanoid.xml in Resources */,
+				147B41041D41BEBC0041260E /* Effecters_Construction.xml in Resources */,
+				147B417B1D41BEBC0041260E /* Pawn_Mech_Vox.xml in Resources */,
+				147B419A1D41BEBC0041260E /* StuffCategories.xml in Resources */,
+				147B41CE1D41BEBC0041260E /* Plants_Wild_Tropical.xml in Resources */,
+				147B41C01D41BEBC0041260E /* Filth_Various.xml in Resources */,
 				144CDF231D3DC5BD00964D19 /* Assets.xcassets in Resources */,
+				147B41BF1D41BEBC0041260E /* Apparel_Various.xml in Resources */,
+				147B41F41D41BEBC0041260E /* Thoughts_Situation_TraitsPerm.xml in Resources */,
+				147B412B1D41BEBC0041260E /* Jobs_Work.xml in Resources */,
+				147B41DC1D41BEBC0041260E /* Races_Animal_WildCanines.xml in Resources */,
+				147B41FF1D41BEBC0041260E /* Weathers.xml in Resources */,
+				147B40EA1D41BEBC0041260E /* Biomes_Cold.xml in Resources */,
+				147B410F1D41BEBC0041260E /* Hediffs_Global_Drugs.xml in Resources */,
 				140D95631D3DCC5C00C86FF6 /* LaunchScreen.storyboard in Resources */,
+				147B41DF1D41BEBC0041260E /* Animal.xml in Resources */,
+				147B419E1D41BEBC0041260E /* Tales_SinglePawn.xml in Resources */,
+				147B410A1D41BEBC0041260E /* Effecters_WorkGeneral.xml in Resources */,
+				147B41DA1D41BEBC0041260E /* Races_Animal_Temperate.xml in Resources */,
+				147B416D1D41BEBC0041260E /* Songs_Tension.xml in Resources */,
+				147B41171D41BEBC0041260E /* Hediffs_Local_Infections.xml in Resources */,
+				147B41C31D41BEBC0041260E /* Various_Stone.xml in Resources */,
+				147B40FB1D41BEBC0041260E /* Concepts_TriggeredModal.xml in Resources */,
+				147B41551D41BEBC0041260E /* RoomRoles.xml in Resources */,
+				147B416A1D41BEBC0041260E /* Songs_Entry.xml in Resources */,
+				147B41D31D41BEBC0041260E /* Races_Animal_Birds.xml in Resources */,
+				147B41911D41BEBC0041260E /* Stats_Pawns_Combat.xml in Resources */,
+				147B41D01D41BEBC0041260E /* Races_Animal_Base.xml in Resources */,
+				147B413A1D41BEBC0041260E /* PawnKinds_Outlander.xml in Resources */,
+				147B41881D41BEBC0041260E /* World_Oneshots_Weapons.xml in Resources */,
+				147B41BD1D41BEBC0041260E /* Apparel_Hats.xml in Resources */,
+				147B41B71D41BEBC0041260E /* Items_Luxury.xml in Resources */,
+				147B411C1D41BEBC0041260E /* HistoryAutoRecorderGroups.xml in Resources */,
+				147B41E01D41BEBC0041260E /* Humanlike.xml in Resources */,
+				147B41021D41BEBC0041260E /* Duties_Gatherings.xml in Resources */,
+				147B411D1D41BEBC0041260E /* Incidents_Disease.xml in Resources */,
+				147B415F1D41BEBC0041260E /* RulePacks_NameMakers_Factions.xml in Resources */,
+				147B41951D41BEBC0041260E /* Stats_Pawns_WorkMedical.xml in Resources */,
+				147B41E81D41BEBC0041260E /* Thoughts_Memory_Gatherings.xml in Resources */,
+				147B41151D41BEBC0041260E /* Hediffs_Local_Chronic.xml in Resources */,
+				147B41781D41BEBC0041260E /* Pawn_Animal_Domestic_Vox.xml in Resources */,
+				147B41BA1D41BEBC0041260E /* Items_Resource_RawPlant.xml in Resources */,
+				147B41581D41BEBC0041260E /* RulePacks_Art_ImagesTaleless.xml in Resources */,
+				147B41281D41BEBC0041260E /* Jobs_Gatherings.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
