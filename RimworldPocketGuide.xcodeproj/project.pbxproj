@@ -641,7 +641,7 @@
 			isa = PBXGroup;
 			children = (
 				144CDF1B1D3DC5BD00964D19 /* AppDelegate.swift */,
-				147B56D31D41CAE30041260E /* AboutInfoVC.swift */,
+				147B56D51D42BFBA0041260E /* View Controllers */,
 				147B56CF1D41BFDF0041260E /* Models */,
 				147B56D21D41C6BD0041260E /* Helpers */,
 				140D95641D3DD13F00C86FF6 /* Supporting Files */,
@@ -1585,6 +1585,14 @@
 				147B56D01D41C6B80041260E /* ErrorHelper.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		147B56D51D42BFBA0041260E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				147B56D31D41CAE30041260E /* AboutInfoVC.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		489FBC990A6453E07A1DB651 /* Frameworks */ = {

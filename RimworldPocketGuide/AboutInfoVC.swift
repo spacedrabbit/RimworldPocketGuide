@@ -49,13 +49,15 @@ class AboutInfoVC: UIViewController {
   }
   
   private func loadAboutInfo() {
-    let destinationPath: NSURL? = NSBundle.mainBundle().URLForResource("About", withExtension: "xml")
-    let data: NSData? = NSData(contentsOfURL: destinationPath!)
-    let xmlIndexer: XMLIndexer = SWXMLHash.parse(data!)
+    guard
+      let destinationPath: NSURL = NSBundle.mainBundle().URLForResource("About", withExtension: "xml"),
+      let data: NSData = NSData(contentsOfURL: destinationPath),
+      let xmlIndexer: XMLIndexer = SWXMLHash.parse(data)
+    else { return }
     
     do {
       let aboutInfo: AboutInfo = try AboutInfo.deserialize(xmlIndexer)
-      self.aboutDetails.text = "\(aboutInfo.description)"
+      self.aboutDetails.text = aboutInfo.description
     }
     catch {
       if let parseError: XMLDeserializationError = error as? XMLDeserializationError {
