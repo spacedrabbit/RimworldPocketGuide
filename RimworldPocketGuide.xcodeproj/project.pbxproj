@@ -38,6 +38,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140D95641D3DD13F00C86FF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				144CDF221D3DC5BD00964D19 /* Assets.xcassets */,
+				144CDF271D3DC5BD00964D19 /* Info.plist */,
+				140D95621D3DCC5C00C86FF6 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		144CDF0F1D3DC5BC00964D19 = {
 			isa = PBXGroup;
 			children = (
@@ -61,9 +71,7 @@
 			children = (
 				144CDF1B1D3DC5BD00964D19 /* AppDelegate.swift */,
 				144CDF1D1D3DC5BD00964D19 /* ViewController.swift */,
-				144CDF221D3DC5BD00964D19 /* Assets.xcassets */,
-				144CDF271D3DC5BD00964D19 /* Info.plist */,
-				140D95621D3DCC5C00C86FF6 /* LaunchScreen.storyboard */,
+				140D95641D3DD13F00C86FF6 /* Supporting Files */,
 			);
 			path = RimworldPocketGuide;
 			sourceTree = "<group>";

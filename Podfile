@@ -5,5 +5,6 @@ target 'RimworldPocketGuide' do
   use_frameworks!
 
   pod 'SnapKit' , '~> 0.21.0'
+  pod 'SWXMLHash', '~> 2.4'
 
 end
