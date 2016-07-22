@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
+    if let biomeURL: NSURL = NSBundle.mainBundle().URLForResource("Biomes_Arid", withExtension: "xml") {
+      if let locatedBiomes: [Biome] = Biome.parseBiomesFromURL(biomeURL) {
+        print("Biomes parsed: \(locatedBiomes)")
+      }
+    }
+    
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
     let root = AboutInfoVC()
     self.window?.rootViewController = root
