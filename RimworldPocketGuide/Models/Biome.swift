@@ -17,13 +17,13 @@ internal enum BiomeCategory: String {
 
 internal struct Biome: XMLIndexerDeserializable {
 //  var temperateCategory: BiomeCategory
-  let name: String
-  let label: String
-  let biomeDescription: String
-  let workerClass: String
-  let plantDensity: Float
-  let animalDensity: Float
-  let diseaseMtbDays: Int
+  var name: String
+  var label: String
+  var biomeDescription: String
+  var workerClass: String
+  var plantDensity: Float
+  var animalDensity: Float
+  var diseaseMtbDays: Int
 //  let terrains: [String]
 //  let weatherTypes: [String]
 //  let wildPlants: [String]
@@ -112,41 +112,37 @@ internal struct Biome: XMLIndexerDeserializable {
   } // end keys
   
   static func deserialize(node: XMLIndexer) throws -> Biome {
-
-    if let biomeRootNode: [XMLIndexer] = node[Keys.biomeDef].children {
-      for biomeDefLeaf: XMLIndexer in biomeRootNode {
+    if let biomeRootNodeAll: XMLIndexer = node.all.first {
+      
+      do {
+        let name: String = try biomeRootNodeAll.byKey(Keys.biomeName).value()
+        let label: String = try biomeRootNodeAll.byKey(Keys.biomeLabel).value()
+        let biomeDescription: String = try biomeRootNodeAll.byKey(Keys.biomeDescription).value()
+        let workerClass: String = try biomeRootNodeAll.byKey(Keys.biomeWorkerClass).value()
+        let animalDensity: Float = try biomeRootNodeAll.byKey(Keys.biomeAnimalDensity).value()
+        let plantDensity: Float = try biomeRootNodeAll.byKey(Keys.biomePlantDensity).value()
+        let diseaseMtbDays: Int = try biomeRootNodeAll.byKey(Keys.biomeDiseaseMtbDays).value()
         
-        do {
-          let name: String = try biomeDefLeaf[Keys.biomeName].value()
-          let label: String = try biomeDefLeaf[Keys.biomeLabel].value()
-          let biomeDescription: String = try biomeDefLeaf[Keys.biomeDescription].value()
-          let workerClass: String = try biomeDefLeaf[Keys.biomeWorkerClass].value()
-          let animalDensity: Float = try biomeDefLeaf[Keys.biomeAnimalDensity].value()
-          let plantDensity: Float = try biomeDefLeaf[Keys.biomePlantDensity].value()
-          let diseaseMtbDays: Int = try biomeDefLeaf[Keys.biomeDiseaseMtbDays].value()
-          
-          print("All went will with \(#function) deserializaion")
-          return Biome(name: name, label: label, biomeDescription: biomeDescription,
-                       workerClass: workerClass, plantDensity: plantDensity,
-                       animalDensity: animalDensity, diseaseMtbDays: diseaseMtbDays)
-        } catch {
-          print("\(#function) threw!")
-          // TODO
-        }
-        
+        print("All went will with \(#function) deserializaion")
+        return Biome(name: name, label: label, biomeDescription: biomeDescription,
+                     workerClass: workerClass, plantDensity: plantDensity,
+                     animalDensity: animalDensity, diseaseMtbDays: diseaseMtbDays)
+      } catch {
+        print("\(#function) threw!")
       }
     }
-    
+
     throw XMLDeserializationError.NodeHasNoValue
   }
-  
+
   static func parseBiomesFromURL(url: NSURL) -> [Biome]? {
-    var biomes: [Biome]?
+    var biomes: [Biome]? = []
     
     guard
       let destinationPath: NSURL = url,
       let data: NSData = NSData(contentsOfURL: destinationPath),
-      let xmlIndexer: XMLIndexer = SWXMLHash.parse(data)
+      let xmlString: String = String(data: data, encoding: NSUTF8StringEncoding),
+      let xmlIndexer: XMLIndexer = SWXMLHash.parse(xmlString)
     else { return nil }
     
     if let biomeNodes: [XMLIndexer] = xmlIndexer[Keys.root].children {
