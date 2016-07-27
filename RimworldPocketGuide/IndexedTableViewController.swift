@@ -12,7 +12,7 @@ import SWXMLHash
 class IndexedTableViewController: UITableViewController, UISearchResultsUpdating {
   let searchController = UISearchController(searchResultsController: nil)
   var biomes: [Biome] = []
-  var filteredResults: [AnyObject] = []
+  var filteredResults: [Biome] = []
   
   override func viewDidLoad() {
     if let biomeURL: NSURL = NSBundle.mainBundle().URLForResource("Biomes_Arid", withExtension: "xml") {
@@ -42,7 +42,9 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
   
   // MARK: - Helpers
   func filterContentFor(searchText: String, scope: String = "All") {
-    // TODO: live filtering
+    filteredResults = self.biomes.filter{ (biome: Biome) in
+      return biome.name.lowercaseString.containsString(searchText.lowercaseString)
+    }
     
     self.tableView.reloadData()
   }
@@ -54,6 +56,9 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
   }
   
   override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    if searchController.active && searchController.searchBar.text != "" {
+      return self.filteredResults.count
+    }
     return self.biomes.count > 0 ? self.biomes.count : 1
   }
   
@@ -64,8 +69,16 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
       cell = UITableViewCell(style: .Subtitle, reuseIdentifier: "biomeCell")
     }
     
-    cell?.textLabel?.text = self.biomes[indexPath.row].name
-    cell?.detailTextLabel?.text = self.biomes[indexPath.row].biomeDescription
+    var biomeForCell: Biome
+    if searchController.active && searchController.searchBar.text != "" {
+      biomeForCell = self.filteredResults[indexPath.row] as! Biome
+    }
+    else {
+      biomeForCell = self.biomes[indexPath.row]
+    }
+    
+    cell?.textLabel?.text = biomeForCell.name
+    cell?.detailTextLabel?.text = biomeForCell.biomeDescription
     
     return cell!
   }
@@ -74,5 +87,9 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
     if section == 0 { return "Biomes" }
     
     return "Unknown"
+  }
+  
+  override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    print("Selected Section: \(indexPath.section), Row: \(indexPath.row)")
   }
 }
