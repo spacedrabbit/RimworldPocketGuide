@@ -71,7 +71,7 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
     
     var biomeForCell: Biome
     if searchController.active && searchController.searchBar.text != "" {
-      biomeForCell = self.filteredResults[indexPath.row] as! Biome
+      biomeForCell = self.filteredResults[indexPath.row]
     }
     else {
       biomeForCell = self.biomes[indexPath.row]
