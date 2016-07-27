@@ -297,6 +297,7 @@
 		147B56D11D41C6B80041260E /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B56D01D41C6B80041260E /* ErrorHelper.swift */; };
 		147B56D41D41CAE30041260E /* AboutInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B56D31D41CAE30041260E /* AboutInfoVC.swift */; };
 		147B56D71D42C0850041260E /* Biome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B56D61D42C0850041260E /* Biome.swift */; };
+		147B56D91D483CDF0041260E /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B56D81D483CDF0041260E /* Pawn.swift */; };
 		27C9F2EEB847D4455CBB70B2 /* Pods_RimworldPocketGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A12F1C73FA73895E53EBB5 /* Pods_RimworldPocketGuide.framework */; };
 /* End PBXBuildFile section */
 
@@ -593,6 +594,7 @@
 		147B56D01D41C6B80041260E /* ErrorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorHelper.swift; path = Helpers/ErrorHelper.swift; sourceTree = "<group>"; };
 		147B56D31D41CAE30041260E /* AboutInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutInfoVC.swift; sourceTree = "<group>"; };
 		147B56D61D42C0850041260E /* Biome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Biome.swift; path = Models/Biome.swift; sourceTree = "<group>"; };
+		147B56D81D483CDF0041260E /* Pawn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
 		B8A12F1C73FA73895E53EBB5 /* Pods_RimworldPocketGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimworldPocketGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F42A3370F8300D6DBC14F4 /* Pods-RimworldPocketGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimworldPocketGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-RimworldPocketGuide/Pods-RimworldPocketGuide.release.xcconfig"; sourceTree = "<group>"; };
 		E4D7DE3FBA1AF81D6637584A /* Pods-RimworldPocketGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimworldPocketGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RimworldPocketGuide/Pods-RimworldPocketGuide.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1578,6 +1580,7 @@
 			children = (
 				147B56CD1D41BFDB0041260E /* AboutInfo.swift */,
 				147B56D61D42C0850041260E /* Biome.swift */,
+				147B56D81D483CDF0041260E /* Pawn.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -2023,6 +2026,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147B56CE1D41BFDB0041260E /* AboutInfo.swift in Sources */,
+				147B56D91D483CDF0041260E /* Pawn.swift in Sources */,
 				147B56D41D41CAE30041260E /* AboutInfoVC.swift in Sources */,
 				147B56D11D41C6B80041260E /* ErrorHelper.swift in Sources */,
 				144CDF1C1D3DC5BD00964D19 /* AppDelegate.swift in Sources */,

@@ -107,8 +107,6 @@ internal struct Biome: XMLIndexerDeserializable {
       
       static let allowedPackAnimals: String = "allowedPackAnimals"
     }
-    
-    
   } // end keys
   
   static func deserialize(node: XMLIndexer) throws -> Biome {
@@ -123,7 +121,7 @@ internal struct Biome: XMLIndexerDeserializable {
         let plantDensity: Float = try biomeRootNodeAll.byKey(Keys.biomePlantDensity).value()
         let diseaseMtbDays: Int = try biomeRootNodeAll.byKey(Keys.biomeDiseaseMtbDays).value()
         
-        print("All went will with \(#function) deserializaion")
+//        print("All went will with \(#function) deserializaion")
         return Biome(name: name, label: label, biomeDescription: biomeDescription,
                      workerClass: workerClass, plantDensity: plantDensity,
                      animalDensity: animalDensity, diseaseMtbDays: diseaseMtbDays)
@@ -141,11 +139,8 @@ internal struct Biome: XMLIndexerDeserializable {
     guard
       let destinationPath: NSURL = url,
       let data: NSData = NSData(contentsOfURL: destinationPath),
-//      let xmlString: String = String(data: data, encoding: NSUTF8StringEncoding),
-      let xmlIndexer: XMLIndexer = SWXMLHash.config({ (configOptions: SWXMLHashOptions) in
-      }).parse(data)
-      
-      else { return nil }
+      let xmlIndexer: XMLIndexer = SWXMLHash.parse(data)
+    else { return nil }
     
     if let biomeNodes: [XMLIndexer] = xmlIndexer[Keys.root].children {
       for biomeLeafNode: XMLIndexer in biomeNodes {

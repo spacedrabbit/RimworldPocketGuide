@@ -48,6 +48,9 @@ class AboutInfoVC: UIViewController {
     loadAboutInfo()
   }
   
+  /** 
+   Loads About.xml for basic info on RimWorld
+   */
   private func loadAboutInfo() {
     guard
       let destinationPath: NSURL = NSBundle.mainBundle().URLForResource("About", withExtension: "xml"),

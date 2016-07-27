@@ -18,7 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     if let biomeURL: NSURL = NSBundle.mainBundle().URLForResource("Biomes_Arid", withExtension: "xml") {
       if let locatedBiomes: [Biome] = Biome.parseBiomesFromURL(biomeURL) {
-        print("Biomes parsed: \(locatedBiomes)")
+//        print("Biomes parsed: \(locatedBiomes)")
+      }
+    }
+    
+    if let pawnBaseDefUrl: NSURL = NSBundle.mainBundle().URLForResource("Races_Animal_Base", withExtension: "xml") {
+      if let pawnData: NSData = NSData(contentsOfURL: pawnBaseDefUrl) {
+        if let pawnIndexer: XMLIndexer = SWXMLHash.parse(pawnData) {
+          if let pawn: Pawn = try? Pawn.deserialize(pawnIndexer) {
+            print("Pawn parsed: \(pawn)")
+          }
+        }
       }
     }
     
