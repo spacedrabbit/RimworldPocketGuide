@@ -20,6 +20,7 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
         self.biomes = locatedBiomes
       }
     }
+    self.title = "Rimworld: Pocket"
     
     self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: #selector(showAboutInfo))
     
@@ -90,6 +91,17 @@ class IndexedTableViewController: UITableViewController, UISearchResultsUpdating
   }
   
   override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    print("Selected Section: \(indexPath.section), Row: \(indexPath.row)")
+    var selectedBiome: Biome
+    if self.searchController.active && self.searchController.searchBar.text != "" {
+      selectedBiome = self.filteredResults[indexPath.row]
+    }
+    else {
+      selectedBiome = self.biomes[indexPath.row]
+    }
+    
+    let dtvc: BiomeTableViewController = BiomeTableViewController()
+    dtvc.selectedBiome = selectedBiome
+
+    self.showViewController(dtvc, sender: self)
   }
 }

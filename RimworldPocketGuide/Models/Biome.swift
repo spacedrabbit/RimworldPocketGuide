@@ -121,7 +121,6 @@ internal struct Biome: XMLIndexerDeserializable {
         let plantDensity: Float = try biomeRootNodeAll.byKey(Keys.biomePlantDensity).value()
         let diseaseMtbDays: Int = try biomeRootNodeAll.byKey(Keys.biomeDiseaseMtbDays).value()
         
-//        print("All went will with \(#function) deserializaion")
         return Biome(name: name, label: label, biomeDescription: biomeDescription,
                      workerClass: workerClass, plantDensity: plantDensity,
                      animalDensity: animalDensity, diseaseMtbDays: diseaseMtbDays)
@@ -156,6 +155,19 @@ internal struct Biome: XMLIndexerDeserializable {
     }
     
     return biomes
+  }
+  
+  internal func dictionaryRepresentation() -> Dictionary<String, AnyObject>{
+    return
+      [
+        Keys.biomeName : self.name,
+        Keys.biomeLabel : self.label,
+        Keys.biomeDescription : self.biomeDescription,
+        Keys.biomeWorkerClass : self.workerClass,
+        Keys.biomeAnimalDensity : self.animalDensity,
+        Keys.biomePlantDensity : self.plantDensity,
+        Keys.biomeDiseaseMtbDays : self.diseaseMtbDays
+      ]
   }
   
 }
