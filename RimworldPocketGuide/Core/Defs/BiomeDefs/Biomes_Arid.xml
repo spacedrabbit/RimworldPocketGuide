@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <BiomeDef>
     <defName>AridShrubland</defName>
     <label>arid shrubland</label>
@@ -45,6 +44,7 @@
         <min>-999</min>
         <max>0.45</max>
       </li>
+      <li>
         <terrain>Soil</terrain>
         <min>0.45</min>
         <max>0.90</max>
@@ -101,7 +101,6 @@
       <li>Dromedary</li>
     </allowedPackAnimals>
   </BiomeDef>
-
   <BiomeDef>
     <defName>Desert</defName>
     <label>desert</label>
@@ -183,7 +182,6 @@
       <li>Dromedary</li>
     </allowedPackAnimals>
   </BiomeDef>
-
   <BiomeDef>
     <defName>ExtremeDesert</defName>
     <label>extreme desert</label>
@@ -251,5 +249,4 @@
       <li>Dromedary</li>
     </allowedPackAnimals>
   </BiomeDef>
-
 </Defs>

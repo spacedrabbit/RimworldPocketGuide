@@ -141,9 +141,11 @@ internal struct Biome: XMLIndexerDeserializable {
     guard
       let destinationPath: NSURL = url,
       let data: NSData = NSData(contentsOfURL: destinationPath),
-      let xmlString: String = String(data: data, encoding: NSUTF8StringEncoding),
-      let xmlIndexer: XMLIndexer = SWXMLHash.parse(xmlString)
-    else { return nil }
+//      let xmlString: String = String(data: data, encoding: NSUTF8StringEncoding),
+      let xmlIndexer: XMLIndexer = SWXMLHash.config({ (configOptions: SWXMLHashOptions) in
+      }).parse(data)
+      
+      else { return nil }
     
     if let biomeNodes: [XMLIndexer] = xmlIndexer[Keys.root].children {
       for biomeLeafNode: XMLIndexer in biomeNodes {
