@@ -18,6 +18,13 @@ class AboutInfoVC: UIViewController {
     
     setupViewHierarchy()
     configureConstraints()
+    
+    let dismissGesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissModal))
+    self.view.addGestureRecognizer(dismissGesture)
+  }
+  
+  func dismissModal() {
+    self.dismissViewControllerAnimated(true, completion: nil)
   }
   
   private func configureConstraints() {

@@ -16,12 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
-    if let biomeURL: NSURL = NSBundle.mainBundle().URLForResource("Biomes_Arid", withExtension: "xml") {
-      if let locatedBiomes: [Biome] = Biome.parseBiomesFromURL(biomeURL) {
-//        print("Biomes parsed: \(locatedBiomes)")
-      }
-    }
-    
     if let pawnBaseDefUrl: NSURL = NSBundle.mainBundle().URLForResource("Races_Animal_Base", withExtension: "xml") {
       if let pawnData: NSData = NSData(contentsOfURL: pawnBaseDefUrl) {
         if let pawnIndexer: XMLIndexer = SWXMLHash.parse(pawnData) {
@@ -33,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-    let root = AboutInfoVC()
+    let root = UINavigationController(rootViewController: IndexedTableViewController())
     self.window?.rootViewController = root
     self.window?.makeKeyAndVisible()
     
