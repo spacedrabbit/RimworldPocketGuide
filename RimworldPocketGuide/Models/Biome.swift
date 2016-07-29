@@ -125,7 +125,8 @@ internal struct Biome: XMLIndexerDeserializable {
                      workerClass: workerClass, plantDensity: plantDensity,
                      animalDensity: animalDensity, diseaseMtbDays: diseaseMtbDays)
       } catch {
-        print("\(#function) threw!")
+        // Known: will throw on parsing Ocean biome as it does not adhere to the conventions of buildable biomes
+        print("\(#function) threw parsing: \(biomeRootNodeAll.description)")
       }
     }
 
