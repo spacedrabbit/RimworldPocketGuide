@@ -22,9 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           if let pawn: Pawn = try? Pawn.deserialize(pawnIndexer) {
             print("Pawn parsed: \(pawn)")
           }
+          
+          if let baseAnimal: AnimalBase = try? AnimalBase.deserialize(pawnIndexer) {
+            print("Base Animal parsed: \(baseAnimal)")
+          }
         }
       }
     }
+
     
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
     let root = UINavigationController(rootViewController: IndexedTableViewController())

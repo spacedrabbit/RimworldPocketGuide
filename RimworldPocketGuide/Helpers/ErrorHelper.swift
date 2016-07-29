@@ -9,7 +9,19 @@
 import Foundation
 import SWXMLHash
 
+// I don't like this overload, but it's fine for now
+extension Bool {
+  init(_ withString: String) {
+    if withString.lowercaseString == "true" {
+      self = true
+    } else {
+      self = false
+    }
+  }
+}
+
 internal class ErrorHelper {
+  
   internal static func handle(error: XMLDeserializationError) {
     switch  error {
     case .NodeHasNoValue:
@@ -18,4 +30,5 @@ internal class ErrorHelper {
       print("Unknown error encountered")
     }
   }
+  
 }
