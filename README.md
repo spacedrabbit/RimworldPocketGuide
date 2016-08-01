@@ -24,9 +24,9 @@ Speaking of database, I can only begin to start adding in Realm once I'm aware o
 
 In short: there's too much, non-uniformed data to parse. and no obvious way (to me) to create a robust enough method to parse everything out while preserving sibiling relationships, class heirarchy, and relavent model properties.
 
-Takeaways:
-1. SWXMLHash has been a fairly useful library to use once its conventions are semi-understood (wtf is the difference between a component and element?? it's never explained). Unfortunately, the libaries reliance on generics is a blessing and a curse: some things can be done invisibly (like proper type casting after parsing), but in that simplicity it obfuscates what is actually being returned from it's function calls (ok is this now an `XMLIndex` or `[XMLIndex]` or ... should this model conform to `XMLIndexDeserializable` or `XMLElementDeserializable`...)
-  I'll likely use this library again now that I'm used to it, but it does leave things to be desired. But I think this might just be a result of the use of XML to store data in general. I'm not terribly interested in creating a custom XML parser either. 
+###Takeaways:
+
+1. SWXMLHash has been a fairly useful library to use once its conventions are semi-understood (wtf is the difference between a component and element?? it's never explained). Unfortunately, the libaries reliance on generics is a blessing and a curse: some things can be done invisibly (like proper type casting after parsing), but in that simplicity it obfuscates what is actually being returned from it's function calls (ok is this now an `XMLIndex` or `[XMLIndex]` or ... should this model conform to `XMLIndexDeserializable` or `XMLElementDeserializable`...)I'll likely use this library again now that I'm used to it, but it does leave things to be desired. But I think this might just be a result of the use of XML to store data in general. I'm not terribly interested in creating a custom XML parser either. 
 
 2. Implementing a live search functionality is pretty simple. I'm impressed with the strides Apple took to make this a feature available to apps
 
